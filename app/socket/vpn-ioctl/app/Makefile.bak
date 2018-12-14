@@ -1,0 +1,17 @@
+
+
+INCLUDEDIR=../include
+LIBSDIR=../libs
+BINSDIR=../bin
+CFLAGS=-lpthread -Wall -g -I${INCLUDEDIR}  -L${LIBSDIR} -lgpio  -lsocketlib
+
+TAG=${BINSDIR}/sktgpio_server  ${BINSDIR}/gpioclient
+all:${TAG}
+	
+${BINSDIR}/sktgpio_server:sktgpio_server.o
+	${CC} -o $@ $^ ${CFLAGS}
+
+${BINSDIR}/gpioclient:gpioclient.o
+	${CC} -o $@ $^ ${CFLAGS}
+clean:
+	 rm -rf *.o  ${TAG}

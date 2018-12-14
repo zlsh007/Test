@@ -1,0 +1,632 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AC4MODE	app/dev_process.c	/^AC4MODE,$/;"	e	enum:seirmode	file:
+AC4MODE	app/dev_process_sec.c	/^AC4MODE,$/;"	e	enum:seirmode	file:
+AC4MODE	app/dev_process_usec.c	/^AC4MODE,$/;"	e	enum:seirmode	file:
+ARCHS	Makefile	/^ARCHS=arm$/;"	m
+BINSDIR	app/Makefile	/^BINSDIR=..\/bin$/;"	m
+CC	Makefile	/^CC=arm-linux-gcc$/;"	m
+CC	Makefile	/^CC=gcc$/;"	m
+CFLAGS	srclib/Makefile	/^CFLAGS=-lpthread -shared -Wall -g -I${INCLUDEDIR} $/;"	m
+CLIENT__H__	include/client.h	8;"	d
+CMD_A5_A11_CLE	include/cmd.h	23;"	d
+CMD_A5_A11_GET	include/cmd.h	24;"	d
+CMD_A5_A11_SET	include/cmd.h	22;"	d
+CMD_AC4RESET	include/cmd.h	17;"	d
+CMD_ACK_SIGN	include/cmd.h	28;"	d
+CMD_BEEP	include/cmd.h	13;"	d
+CMD_LED	include/cmd.h	12;"	d
+CMD_MAX	include/cmd.h	26;"	d
+CMD_MTD3_ERASE	include/cmd.h	19;"	d
+CMD_MTD3_READ	include/cmd.h	21;"	d
+CMD_MTD3_REBUILD	include/cmd.h	18;"	d
+CMD_MTD3_WRITE	include/cmd.h	20;"	d
+CMD_OPENLOCK	include/cmd.h	16;"	d
+CMD_RANDOM	include/cmd.h	15;"	d
+CMD_START	include/cmd.h	11;"	d
+CMD_UARTMODE	include/cmd.h	14;"	d
+DEFAULT_DATA_DIR	srclib/getenv.c	20;"	d	file:
+DEFAULT_DPM_CHANNEL_MAX	srclib/getenv.c	22;"	d	file:
+DEFAULT_DPM_INPUT_IP	srclib/getenv.c	16;"	d	file:
+DEFAULT_DPM_INPUT_PORT	srclib/getenv.c	17;"	d	file:
+DEFAULT_DPM_OUTPUT_IP	srclib/getenv.c	18;"	d	file:
+DEFAULT_DPM_OUTPUT_PORT	srclib/getenv.c	19;"	d	file:
+DEFAULT_DPS_CHANNEL_MAX	srclib/getenv.c	23;"	d	file:
+DEFAULT_DPS_INPUT_IP	srclib/getenv.c	12;"	d	file:
+DEFAULT_DPS_INPUT_PORT	srclib/getenv.c	13;"	d	file:
+DEFAULT_DPS_OUTPUT_IP	srclib/getenv.c	14;"	d	file:
+DEFAULT_DPS_OUTPUT_PORT	srclib/getenv.c	15;"	d	file:
+DEFAULT_LISTENMAX	srclib/socketlib.c	50;"	d	file:
+DEFAULT_LOGFILE	srclib/getenv.c	21;"	d	file:
+DEFAULT_RCVBUFSIZE	srclib/socketlib.c	39;"	d	file:
+DEFAULT_RCVLOWAT	srclib/socketlib.c	40;"	d	file:
+DEFAULT_REUSE	srclib/socketlib.c	38;"	d	file:
+DEFAULT_RTOUTSEC	srclib/socketlib.c	41;"	d	file:
+DEFAULT_RTOUTUSEC	srclib/socketlib.c	42;"	d	file:
+DEFAULT_SNDBUFSIZE	srclib/socketlib.c	44;"	d	file:
+DEFAULT_SNDLOWAT	srclib/socketlib.c	45;"	d	file:
+DEFAULT_STOUTSEC	srclib/socketlib.c	46;"	d	file:
+DEFAULT_STOUTUSEC	srclib/socketlib.c	47;"	d	file:
+DEVPROCESSARCH	app/Makefile	/^DEVPROCESSARCH=dev_process_${DEVARCH}.o$/;"	m
+DIR_MODE	include/apue.h	27;"	d
+DPCINNODENAME	srclib/client.c	14;"	d	file:
+DPCOUTNODENAME	srclib/client.c	15;"	d	file:
+DPMINIP	srclib/getenv.c	/^DPMINIP,$/;"	e	enum:envdp_ipport	file:
+DPMINPORT	srclib/getenv.c	/^DPMINPORT,$/;"	e	enum:envdp_ipport	file:
+DPMOUTIP	srclib/getenv.c	/^DPMOUTIP,$/;"	e	enum:envdp_ipport	file:
+DPMOUTPORT	srclib/getenv.c	/^DPMOUTPORT,$/;"	e	enum:envdp_ipport	file:
+DPMS_VERSSION	include/getenv.h	11;"	d
+DPSINIP	srclib/getenv.c	/^DPSINIP=0,$/;"	e	enum:envdp_ipport	file:
+DPSINPORT	srclib/getenv.c	/^DPSINPORT,$/;"	e	enum:envdp_ipport	file:
+DPSOUTIP	srclib/getenv.c	/^DPSOUTIP,$/;"	e	enum:envdp_ipport	file:
+DPSOUTPORT	srclib/getenv.c	/^DPSOUTPORT,$/;"	e	enum:envdp_ipport	file:
+ESKTACCEPTACCEPT	srclib/socketlib.c	33;"	d	file:
+ESKTACCEPTALLOCNODE	srclib/socketlib.c	32;"	d	file:
+ESKTACCEPTCHECKNODENAME	srclib/socketlib.c	34;"	d	file:
+ESKTACCEPTSEARCHATTR	srclib/socketlib.c	31;"	d	file:
+ESKTATTRREGBIND	srclib/socketlib.c	26;"	d	file:
+ESKTATTRREGCHECHNAME	srclib/socketlib.c	24;"	d	file:
+ESKTATTRREGLISTEN	srclib/socketlib.c	27;"	d	file:
+ESKTATTRREGSOCKET	srclib/socketlib.c	25;"	d	file:
+ESKTMLC	srclib/socketlib.c	23;"	d	file:
+ESKTNODEREGCHECKNAME	srclib/socketlib.c	28;"	d	file:
+ESKTNODEREGCONNECT	srclib/socketlib.c	30;"	d	file:
+ESKTNODEREGSOCKET	srclib/socketlib.c	29;"	d	file:
+ESKTRECVSEARCHNODE	srclib/socketlib.c	36;"	d	file:
+ESKTSENDSEARCHNODE	srclib/socketlib.c	35;"	d	file:
+EXTRAVERSION	srclib/Makefile	/^EXTRAVERSION=$$$\$$/;"	m
+FILE_MODE	include/apue.h	26;"	d
+FILE__IO__H	include/file_io.h	8;"	d
+GPIOA0	include/dev_ioctrol.h	8;"	d
+GPIOA1	include/dev_ioctrol.h	9;"	d
+GPIOA10	include/dev_ioctrol.h	18;"	d
+GPIOA11	include/dev_ioctrol.h	19;"	d
+GPIOA12	include/dev_ioctrol.h	20;"	d
+GPIOA13	include/dev_ioctrol.h	21;"	d
+GPIOA14	include/dev_ioctrol.h	22;"	d
+GPIOA15	include/dev_ioctrol.h	23;"	d
+GPIOA16	include/dev_ioctrol.h	24;"	d
+GPIOA17	include/dev_ioctrol.h	25;"	d
+GPIOA18	include/dev_ioctrol.h	26;"	d
+GPIOA19	include/dev_ioctrol.h	27;"	d
+GPIOA2	include/dev_ioctrol.h	10;"	d
+GPIOA20	include/dev_ioctrol.h	28;"	d
+GPIOA21	include/dev_ioctrol.h	29;"	d
+GPIOA22	include/dev_ioctrol.h	30;"	d
+GPIOA23	include/dev_ioctrol.h	31;"	d
+GPIOA24	include/dev_ioctrol.h	32;"	d
+GPIOA25	include/dev_ioctrol.h	33;"	d
+GPIOA26	include/dev_ioctrol.h	34;"	d
+GPIOA27	include/dev_ioctrol.h	35;"	d
+GPIOA28	include/dev_ioctrol.h	36;"	d
+GPIOA29	include/dev_ioctrol.h	37;"	d
+GPIOA3	include/dev_ioctrol.h	11;"	d
+GPIOA30	include/dev_ioctrol.h	38;"	d
+GPIOA31	include/dev_ioctrol.h	39;"	d
+GPIOA4	include/dev_ioctrol.h	12;"	d
+GPIOA5	include/dev_ioctrol.h	13;"	d
+GPIOA6	include/dev_ioctrol.h	14;"	d
+GPIOA7	include/dev_ioctrol.h	15;"	d
+GPIOA8	include/dev_ioctrol.h	16;"	d
+GPIOA9	include/dev_ioctrol.h	17;"	d
+GPIOB0	include/dev_ioctrol.h	40;"	d
+GPIOB1	include/dev_ioctrol.h	41;"	d
+GPIOB10	include/dev_ioctrol.h	50;"	d
+GPIOB11	include/dev_ioctrol.h	51;"	d
+GPIOB12	include/dev_ioctrol.h	52;"	d
+GPIOB13	include/dev_ioctrol.h	53;"	d
+GPIOB14	include/dev_ioctrol.h	54;"	d
+GPIOB15	include/dev_ioctrol.h	55;"	d
+GPIOB16	include/dev_ioctrol.h	56;"	d
+GPIOB17	include/dev_ioctrol.h	57;"	d
+GPIOB2	include/dev_ioctrol.h	42;"	d
+GPIOB3	include/dev_ioctrol.h	43;"	d
+GPIOB4	include/dev_ioctrol.h	44;"	d
+GPIOB5	include/dev_ioctrol.h	45;"	d
+GPIOB6	include/dev_ioctrol.h	46;"	d
+GPIOB7	include/dev_ioctrol.h	47;"	d
+GPIOB8	include/dev_ioctrol.h	48;"	d
+GPIOB9	include/dev_ioctrol.h	49;"	d
+GPIO_ATTR_FALLING_EDGE_IRQ	include/dev_ioctrol.h	116;"	d
+GPIO_ATTR_GET_IOMODE	include/dev_ioctrol.h	108;"	d
+GPIO_ATTR_IN	include/dev_ioctrol.h	109;"	d
+GPIO_ATTR_INTERRUPT	include/dev_ioctrol.h	114;"	d
+GPIO_ATTR_OUT	include/dev_ioctrol.h	110;"	d
+GPIO_ATTR_PULLDOWN	include/dev_ioctrol.h	112;"	d
+GPIO_ATTR_PULLNONE	include/dev_ioctrol.h	113;"	d
+GPIO_ATTR_PULLUP	include/dev_ioctrol.h	111;"	d
+GPIO_ATTR_RISING_EDGE_IRQ	include/dev_ioctrol.h	115;"	d
+GPIO_IOC_CLEAR	include/dev_ioctrol.h	106;"	d
+GPIO_IOC_GET	app/gpioclient.c	20;"	d	file:
+GPIO_IOC_GET	include/dev_ioctrol.h	107;"	d
+GPIO_IOC_MAGIC	app/gpioclient.c	19;"	d	file:
+GPIO_IOC_MAGIC	include/dev_ioctrol.h	103;"	d
+GPIO_IOC_RESET	include/dev_ioctrol.h	104;"	d
+GPIO_IOC_SET	include/dev_ioctrol.h	105;"	d
+GPIO_READREG	include/dev_ioctrol.h	117;"	d
+GPIO_WRITEREG	include/dev_ioctrol.h	118;"	d
+HEAR	include/hear.h	5;"	d
+HLIST_HEAD	include/list.h	542;"	d
+HLIST_HEAD_INIT	include/list.h	541;"	d
+INCLUDEDIR	app/Makefile	/^INCLUDEDIR=..\/include$/;"	m
+INCLUDEDIR	srclib/Makefile	/^INCLUDEDIR=..\/include$/;"	m
+INIT_HLIST_HEAD	include/list.h	543;"	d
+INIT_HLIST_NODE	include/list.h	/^static inline void INIT_HLIST_NODE(struct hlist_node *h)$/;"	f
+INIT_LIST_HEAD	include/list.h	/^static inline void INIT_LIST_HEAD(struct list_head *list)$/;"	f
+LIBDIR	srclib/Makefile	/^LIBDIR=..\/libs$/;"	m
+LIBS1	srclib/Makefile	/^LIBS1=${LIBDIR}\/libsocketlib.so $/;"	m
+LIBS2	srclib/Makefile	/^LIBS2=${LIBDIR}\/libgpio.so $/;"	m
+LIBSDIR	app/Makefile	/^LIBSDIR=..\/libs$/;"	m
+LIST_HEAD	include/list.h	28;"	d
+LIST_HEAD_INIT	include/list.h	26;"	d
+LIST_POISON1	include/list.h	23;"	d
+LIST_POISON2	include/list.h	24;"	d
+LOGCMD_CONNECT	include/log.h	10;"	d
+LOGCMD_DISCONNECT	include/log.h	15;"	d
+LOGCMD_DPMSTART	include/log.h	17;"	d
+LOGCMD_DPSRCVDATA	include/log.h	18;"	d
+LOGCMD_DPSSNDDATA	include/log.h	19;"	d
+LOGCMD_ERROR	include/log.h	16;"	d
+LOGCMD_READFILE	include/log.h	14;"	d
+LOGCMD_READFILESIZE	include/log.h	13;"	d
+LOGCMD_WRITEAPPEND	include/log.h	12;"	d
+LOGCMD_WRITECREATE	include/log.h	11;"	d
+LOGFILENAMEMAX	srclib/log.c	19;"	d	file:
+MAXLINE	include/apue.h	24;"	d
+NANDFLASH_MTD3_ADDR	app/dev_process_sec.c	24;"	d	file:
+NANDFLASH_MTD3_ADDR	app/dev_process_white.c	23;"	d	file:
+NANDFLASH_MTD3_MAXLEN	app/dev_process_sec.c	25;"	d	file:
+NANDFLASH_MTD3_MAXLEN	app/dev_process_white.c	24;"	d	file:
+OBJ1	srclib/Makefile	/^OBJ1=socketlib.o $/;"	m
+OBJ2	srclib/Makefile	/^OBJ2=cmd.o file_io.o getenv.o sktlist.o log.o bdversion.o  gpiointerface.o$/;"	m
+PORTAC4RESET	include/dev_ioctrol.h	86;"	d
+PORTBEEP	include/dev_ioctrol.h	69;"	d
+PORTBEEP	include/dev_ioctrol.h	83;"	d
+PORTCFGDONE	include/dev_ioctrol.h	90;"	d
+PORTKILLKEY	app/gpioclient.c	28;"	d	file:
+PORTKILLKEY	app/gpioclient.c	47;"	d	file:
+PORTKILLKEY	include/dev_ioctrol.h	85;"	d
+PORTLED1	include/dev_ioctrol.h	79;"	d
+PORTLED1	include/dev_ioctrol.h	96;"	d
+PORTLED2	include/dev_ioctrol.h	64;"	d
+PORTLED2	include/dev_ioctrol.h	80;"	d
+PORTLED2	include/dev_ioctrol.h	97;"	d
+PORTLED3	include/dev_ioctrol.h	65;"	d
+PORTLED3	include/dev_ioctrol.h	81;"	d
+PORTLED3	include/dev_ioctrol.h	98;"	d
+PORTLED4	include/dev_ioctrol.h	66;"	d
+PORTLED5	include/dev_ioctrol.h	67;"	d
+PORTNAS7825IO0	include/dev_ioctrol.h	87;"	d
+PORTNAS7825IO0	include/dev_ioctrol.h	99;"	d
+PORTNAS7825IO1	include/dev_ioctrol.h	100;"	d
+PORTNAS7825IO1	include/dev_ioctrol.h	88;"	d
+PORTOPENLOCK	include/dev_ioctrol.h	89;"	d
+PORTUARTMODE	include/dev_ioctrol.h	84;"	d
+SEC	app/dev_process.c	10;"	d	file:
+SEC	include/dev_ioctrol.h	61;"	d
+SEC	include/dev_ioctrol.h	94;"	d
+SIG_ERR	include/apue.h	32;"	d
+SKTGPIOSERVERIP	srclib/gpiointerface.c	17;"	d	file:
+SKTGPIOSERVERPORT	srclib/gpiointerface.c	18;"	d	file:
+SKT_ATTR	app/sktgpio_server.c	24;"	d	file:
+SKT_CLIENT_MAX	app/sktgpio_server.c	27;"	d	file:
+SKT_NODE_CLIENT	app/sktgpio_server.c	26;"	d	file:
+SKT_NODE_SERVER	app/sktgpio_server.c	25;"	d	file:
+SKT_SERVER_PORT	app/sktgpio_server.c	309;"	d	file:
+SNDBUFSIZE	srclib/client.c	16;"	d	file:
+SOCKIN_CLEN	srclib/socketlib.c	49;"	d	file:
+SUBCMD_BEEP_MOD_AUTO	include/cmd.h	33;"	d
+SUBCMD_BEEP_MOD_MANU	include/cmd.h	34;"	d
+SUBCMD_BEEP_OFF	include/cmd.h	37;"	d
+SUBCMD_BEEP_ON	include/cmd.h	38;"	d
+SUBCMD_LED_OFF	include/cmd.h	32;"	d
+SUBCMD_LED_ON	include/cmd.h	31;"	d
+SUBCMD_UART_MOD_AC4	include/cmd.h	36;"	d
+SUBCMD_UART_MOD_CON	include/cmd.h	35;"	d
+TAG	app/Makefile	/^TAG=${BINSDIR}\/sktgpio_server_${DEVARCH}  ${BINSDIR}\/gpioclient_${DEVARCH}$/;"	m
+TAR	srclib/Makefile	/^TAR=${LIBS1} ${LIBS2}$/;"	m
+UARTMODE	app/dev_process.c	/^UARTMODE=0,$/;"	e	enum:seirmode	file:
+UARTMODE	app/dev_process_sec.c	/^UARTMODE=0,$/;"	e	enum:seirmode	file:
+UARTMODE	app/dev_process_usec.c	/^UARTMODE=0,$/;"	e	enum:seirmode	file:
+USEC	app/dev_process.c	11;"	d	file:
+USEC	include/dev_ioctrol.h	62;"	d
+USEC	include/dev_ioctrol.h	78;"	d
+VERSION_FIX_SIZE	srclib/bdversion.c	18;"	d	file:
+VPN1000SECKILLKEY	app/gpioclient.c	23;"	d	file:
+WHITE	include/dev_ioctrol.h	77;"	d
+WHITE	include/dev_ioctrol.h	95;"	d
+WHITEBOXKILLKEY	app/gpioclient.c	24;"	d	file:
+_APP_LIST_H	include/list.h	2;"	d
+_APUE_H	include/apue.h	8;"	d
+_SOCKETLIB_H	include/socketlib.h	8;"	d
+_XOPEN_SOURCE	include/apue.h	10;"	d
+__BDVERSION__H__	include/bdversion.h	8;"	d
+__CMD__H	include/cmd.h	8;"	d
+__DEV_IOCTROL_H__	include/dev_ioctrol.h	2;"	d
+__DEV_PROCESS_H__	include/dev_process.h	2;"	d
+__GETENV__H__	include/getenv.h	8;"	d
+__GPIOINTERFACE__H__	include/gpiointerface.h	8;"	d
+__HEAR_H__	include/hear.h	2;"	d
+__LOG__H__	include/log.h	8;"	d
+__SKTLIST__H__	include/sktlist.h	8;"	d
+__hlist_del	include/list.h	/^static inline void __hlist_del(struct hlist_node *n)$/;"	f
+__list_add	include/list.h	/^static inline void __list_add(struct list_head *new,$/;"	f
+__list_cut_position	include/list.h	/^static inline void __list_cut_position(struct list_head *list,$/;"	f
+__list_del	include/list.h	/^static inline void __list_del(struct list_head * prev, struct list_head * next)$/;"	f
+__list_for_each	include/list.h	360;"	d
+__list_splice	include/list.h	/^static inline void __list_splice(const struct list_head *list,$/;"	f
+a5_a11_clear	srclib/gpiointerface.c	/^int a5_a11_clear(char data)$/;"	f
+a5_a11_getstatus	srclib/gpiointerface.c	/^int a5_a11_getstatus(void)$/;"	f
+a5_a11_set	srclib/gpiointerface.c	/^int a5_a11_set(char data)$/;"	f
+ac4_ctr_reset	srclib/gpiointerface.c	/^int ac4_ctr_reset(int num)$/;"	f
+ac4_reset	app/dev_process_sec.c	/^int ac4_reset(void)$/;"	f
+accept_create_cleanup	app/sktgpio_server.c	/^void accept_create_cleanup(void *args)$/;"	f
+alloc_sktnode	srclib/sktlist.c	/^void *alloc_sktnode(char *n)$/;"	f
+amutex	srclib/socketlib.c	/^	pthread_mutex_t amutex;$/;"	m	struct:skt_list_head	file:
+attr_list	srclib/socketlib.c	/^	struct list_head attr_list;\/\/ attr list$/;"	m	struct:skt_attr	typeref:struct:skt_attr::list_head	file:
+auto_beep	app/dev_process.c	/^void auto_beep(void *cmdp)$/;"	f
+auto_beep	app/dev_process_sec.c	/^int auto_beep(char ttimes, char tdelay, char bt)$/;"	f
+auto_beep	app/dev_process_white.c	/^int auto_beep(char ttimes, char tdelay, char bt)$/;"	f
+beep_ctr_auto	srclib/gpiointerface.c	/^int beep_ctr_auto(char ttimes, char tdelay, char bt)$/;"	f
+beep_ctr_off	srclib/gpiointerface.c	/^int beep_ctr_off(void)$/;"	f
+beep_ctr_on	srclib/gpiointerface.c	/^int beep_ctr_on(void)$/;"	f
+beep_process	app/dev_process.c	/^void beep_process(void *cmdp)$/;"	f
+beep_process	app/sktgpio_server.c	/^void beep_process(char mod, char tms, char tdelay, char bt)$/;"	f
+channel	srclib/client.c	/^	int channel;$/;"	m	struct:dpc_channel_ctx	file:
+check_attr_name	srclib/socketlib.c	/^static char *check_attr_name(const char *name)$/;"	f	file:
+check_node_name	srclib/socketlib.c	/^static char *check_node_name(const char *name)$/;"	f	file:
+checkcrc	srclib/cmd.c	/^static char checkcrc(char *buf, int len)$/;"	f	file:
+cmd	include/cmd.h	/^	char cmd;$/;"	m	struct:gpiocmd
+cmd_recv	srclib/cmd.c	/^struct gpiocmd* cmd_recv(const char *nn)$/;"	f
+cmd_send	srclib/cmd.c	/^int cmd_send(const char *nn, char cmd, char *data, int len)$/;"	f
+cnode_list	srclib/socketlib.c	/^	struct list_head cnode_list;\/\/cli node list$/;"	m	struct:skt_attr	typeref:struct:skt_attr::list_head	file:
+cond	include/sktlist.h	/^	pthread_cond_t cond;$/;"	m	struct:sktlist
+container_of	include/list.h	15;"	d
+crc	include/cmd.h	/^	char crc;$/;"	m	struct:gpiocmd
+crc_check	app/sktgpio_server.c	/^int crc_check(struct gpiocmd *cmdp)$/;"	f
+create_filename	srclib/file_io.c	/^int create_filename(char *d, char *ip, int port, char *fn, char *buf, int len)$/;"	f
+ctid	app/sktgpio_server.c	/^	pthread_t ctid[SKT_CLIENT_MAX];$/;"	m	struct:pthread_sktgpio	file:
+damain	srclib/socketlib.c	/^	int damain;\/\/AF_INET$/;"	m	struct:skt_node	file:
+damain	srclib/socketlib.c	/^	int damain;\/\/af_inet$/;"	m	struct:skt_attr	file:
+data	include/cmd.h	/^	char data[0];$/;"	m	struct:gpiocmd
+datadir	srclib/getenv.c	/^	char *datadir;$/;"	m	struct:dp_env	file:
+debug	include/hear.h	/^static int debug = 0;$/;"	v
+dev_init	app/dev_process.c	/^int dev_init(char *ioa, char *iob)$/;"	f
+dev_init	app/dev_process_sec.c	/^int dev_init(const char *ioa, const char *iob)$/;"	f
+dev_init	app/dev_process_usec.c	/^int dev_init(const char *ioa, const char *iob)$/;"	f
+dev_init	app/dev_process_white.c	/^int dev_init(const char *ioa, const char *iob)$/;"	f
+dlen	app/dev_process_sec.c	/^    int dlen;$/;"	m	struct:nandflash_7825	file:
+dlen	app/dev_process_white.c	/^    int dlen;$/;"	m	struct:nandflash_7825	file:
+dp_client_sysclose	srclib/client.c	/^int dp_client_sysclose(void)$/;"	f
+dp_client_sysinit	srclib/client.c	/^int dp_client_sysinit(int max)$/;"	f
+dp_env	srclib/getenv.c	/^struct dp_env{$/;"	s	file:
+dp_env_init	srclib/getenv.c	/^int dp_env_init(void)$/;"	f
+dpappdump	srclib/client.c	/^int dpappdump(int ch, char *filename, char *buf, int len)$/;"	f
+dpc_channel_ctx	srclib/client.c	/^struct dpc_channel_ctx{$/;"	s	file:
+dpcctxp	srclib/client.c	/^static struct dpc_channel_ctx *dpcctxp = NULL;$/;"	v	typeref:struct:dpc_channel_ctx	file:
+dpcreatdump	srclib/client.c	/^int dpcreatdump(int ch, char *filename, char *buf, int len)$/;"	f
+dpfilesize	srclib/client.c	/^int dpfilesize(int ch, char *filename)$/;"	f
+dploadfile	srclib/client.c	/^int dploadfile(int ch, char *filename, char *buf, int len, int where)$/;"	f
+dpmchannelmax	srclib/getenv.c	/^const char *dpmchannelmax="DPMMAXCHANNEL";$/;"	v
+dpminip	srclib/getenv.c	/^	char **dpminip;$/;"	m	struct:dp_env	file:
+dpminport	srclib/getenv.c	/^	int *dpminport;$/;"	m	struct:dp_env	file:
+dpmmax	srclib/getenv.c	/^	int dpmmax;$/;"	m	struct:dp_env	file:
+dpmoutip	srclib/getenv.c	/^	char **dpmoutip;$/;"	m	struct:dp_env	file:
+dpmoutport	srclib/getenv.c	/^	int *dpmoutport;$/;"	m	struct:dp_env	file:
+dpschannelmax	srclib/getenv.c	/^const char *dpschannelmax="DPSMAXCHANNEL";$/;"	v
+dpsinip	srclib/getenv.c	/^	char **dpsinip;$/;"	m	struct:dp_env	file:
+dpsinport	srclib/getenv.c	/^	int  *dpsinport;$/;"	m	struct:dp_env	file:
+dpsmax	srclib/getenv.c	/^	int dpsmax;$/;"	m	struct:dp_env	file:
+dpsoutip	srclib/getenv.c	/^	char **dpsoutip;$/;"	m	struct:dp_env	file:
+dpsoutport	srclib/getenv.c	/^	int *dpsoutport;$/;"	m	struct:dp_env	file:
+dump_data	srclib/cmd.c	/^void dump_data(const char *buf, int len)$/;"	f
+dump_env	srclib/getenv.c	/^void dump_env(void)$/;"	f
+envdatadir	srclib/getenv.c	/^const char *envdatadir = "DPDATADIR";$/;"	v
+envdp_ipport	srclib/getenv.c	/^enum envdp_ipport{$/;"	g	file:
+envdpipport	srclib/getenv.c	/^const char *envdpipport[8] = {"DPSINPUTIP", "DPSOUTPUTIP", "DPSINPUTPORT","DPSOUTPUTPORT","DPMINPUTIP", "DPMOUTPUTIP", "DPMINPUTPORT", "DPMOUTPUTPORT"};$/;"	v
+envlogfile	srclib/getenv.c	/^const char *envlogfile = "DPLOGFILE";$/;"	v
+envp	srclib/getenv.c	/^static struct dp_env  *envp;$/;"	v	typeref:struct:dp_env	file:
+erase_mtd3	srclib/gpiointerface.c	/^int erase_mtd3(void)$/;"	f
+fd	app/dev_process_sec.c	/^    int fd;$/;"	m	struct:nandflash_7825	file:
+fd	app/dev_process_white.c	/^    int fd;$/;"	m	struct:nandflash_7825	file:
+fd	srclib/socketlib.c	/^	int fd;\/\/socket fd$/;"	m	struct:skt_attr	file:
+fd	srclib/socketlib.c	/^	int fd;\/\/socket fd$/;"	m	struct:skt_node	file:
+fd_null	app/dev_process.c	/^	int fd_null;$/;"	m	struct:sysio	file:
+fd_null	app/dev_process_sec.c	/^	int fd_null;$/;"	m	struct:sysio	file:
+fd_null	app/dev_process_usec.c	/^	int fd_null;$/;"	m	struct:sysio	file:
+fd_null	app/dev_process_white.c	/^	int fd_null;$/;"	m	struct:sysio	file:
+fda	app/dev_process.c	/^	int fda;$/;"	m	struct:sysio	file:
+fda	app/dev_process_sec.c	/^	int fda;$/;"	m	struct:sysio	file:
+fda	app/dev_process_usec.c	/^	int fda;$/;"	m	struct:sysio	file:
+fda	app/dev_process_white.c	/^	int fda;$/;"	m	struct:sysio	file:
+fdb	app/dev_process.c	/^	int fdb;$/;"	m	struct:sysio	file:
+fdb	app/dev_process_sec.c	/^	int fdb;$/;"	m	struct:sysio	file:
+fdb	app/dev_process_usec.c	/^	int fdb;$/;"	m	struct:sysio	file:
+fdb	app/dev_process_white.c	/^	int fdb;$/;"	m	struct:sysio	file:
+fdsys	app/dev_process.c	/^	int fdsys[3];$/;"	m	struct:sysio	file:
+fdsys	app/dev_process_sec.c	/^	int fdsys[3];$/;"	m	struct:sysio	file:
+fdsys	app/dev_process_usec.c	/^	int fdsys[3];$/;"	m	struct:sysio	file:
+fdsys	app/dev_process_white.c	/^	int fdsys[3];$/;"	m	struct:sysio	file:
+first	include/list.h	/^	struct hlist_node *first;$/;"	m	struct:hlist_head	typeref:struct:hlist_head::hlist_node
+flags	srclib/socketlib.c	/^	int flags;$/;"	m	struct:skt_node	file:
+get_data_dir	srclib/getenv.c	/^char *get_data_dir(void)$/;"	f
+get_dpmchannel_max	srclib/getenv.c	/^int get_dpmchannel_max(void)$/;"	f
+get_dpmin_ip	srclib/getenv.c	/^char *get_dpmin_ip(int i)$/;"	f
+get_dpmin_port	srclib/getenv.c	/^int get_dpmin_port(int i)$/;"	f
+get_dpmout_ip	srclib/getenv.c	/^char *get_dpmout_ip(int i)$/;"	f
+get_dpmout_port	srclib/getenv.c	/^int get_dpmout_port(int i)$/;"	f
+get_dpschannel_max	srclib/getenv.c	/^int get_dpschannel_max(void)$/;"	f
+get_dpsin_ip	srclib/getenv.c	/^char *get_dpsin_ip(int i)$/;"	f
+get_dpsin_port	srclib/getenv.c	/^int get_dpsin_port(int i)$/;"	f
+get_dpsout_ip	srclib/getenv.c	/^char *get_dpsout_ip(int i)$/;"	f
+get_dpsout_port	srclib/getenv.c	/^int get_dpsout_port(int i)$/;"	f
+get_from_sktlist	srclib/sktlist.c	/^char* get_from_sktlist(void)$/;"	f
+get_logfilename	srclib/getenv.c	/^char *get_logfilename(void)$/;"	f
+get_node_ip	srclib/socketlib.c	/^char *get_node_ip(const char *name)$/;"	f
+get_random	srclib/gpiointerface.c	/^int get_random(int ch, char *buf, int len)$/;"	f
+get_random_from_wng8	app/dev_process_white.c	/^int get_random_from_wng8(char ch, char *buf, int len)$/;"	f
+getfilesize	srclib/file_io.c	/^int getfilesize(const char *name,  char *ip, int port)$/;"	f
+getnodename	srclib/client.c	/^static char *getnodename(char *str, int num)$/;"	f	file:
+gpio_send_cmd	srclib/gpiointerface.c	/^static int gpio_send_cmd(char cmd, char *data, int len)$/;"	f	file:
+gpiocmd	include/cmd.h	/^struct gpiocmd{$/;"	s
+hattr	srclib/socketlib.c	/^	struct list_head hattr;\/\/ attr head$/;"	m	struct:skt_list_head	typeref:struct:skt_list_head::list_head	file:
+hlist_add_after	include/list.h	/^static inline void hlist_add_after(struct hlist_node *n,$/;"	f
+hlist_add_before	include/list.h	/^static inline void hlist_add_before(struct hlist_node *n,$/;"	f
+hlist_add_head	include/list.h	/^static inline void hlist_add_head(struct hlist_node *n, struct hlist_head *h)$/;"	f
+hlist_del	include/list.h	/^static inline void hlist_del(struct hlist_node *n)$/;"	f
+hlist_del_init	include/list.h	/^static inline void hlist_del_init(struct hlist_node *n)$/;"	f
+hlist_empty	include/list.h	/^static inline int hlist_empty(const struct hlist_head *h)$/;"	f
+hlist_entry	include/list.h	628;"	d
+hlist_for_each	include/list.h	630;"	d
+hlist_for_each_entry	include/list.h	645;"	d
+hlist_for_each_entry_continue	include/list.h	657;"	d
+hlist_for_each_entry_from	include/list.h	669;"	d
+hlist_for_each_entry_safe	include/list.h	682;"	d
+hlist_for_each_safe	include/list.h	634;"	d
+hlist_head	include/list.h	/^struct hlist_head {$/;"	s
+hlist_move_list	include/list.h	/^static inline void hlist_move_list(struct hlist_head *old,$/;"	f
+hlist_node	include/list.h	/^struct hlist_node {$/;"	s
+hlist_unhashed	include/list.h	/^static inline int hlist_unhashed(const struct hlist_node *h)$/;"	f
+hnode	srclib/socketlib.c	/^	struct list_head hnode;\/\/node head$/;"	m	struct:skt_list_head	typeref:struct:skt_list_head::list_head	file:
+iohandle	app/dev_process.c	/^static struct sysio  iohandle;$/;"	v	typeref:struct:sysio	file:
+iohandle	app/dev_process_sec.c	/^static struct sysio  iohandle;$/;"	v	typeref:struct:sysio	file:
+iohandle	app/dev_process_usec.c	/^static struct sysio  iohandle;$/;"	v	typeref:struct:sysio	file:
+iohandle	app/dev_process_white.c	/^static struct sysio  iohandle;$/;"	v	typeref:struct:sysio	file:
+ip	srclib/socketlib.c	/^	char ip[16];$/;"	m	struct:skt_attr	file:
+ip	srclib/socketlib.c	/^	char ip[16];$/;"	m	struct:skt_node	file:
+is_read_lockable	include/apue.h	82;"	d
+is_write_lockable	include/apue.h	83;"	d
+kill_handler	app/dev_process_sec.c	/^void kill_handler(int io)$/;"	f
+kill_handler	app/gpioclient.c	/^void kill_handler(int io)$/;"	f
+kill_key_init	app/gpioclient.c	/^void kill_key_init(void)$/;"	f
+killfd	app/gpioclient.c	/^static int killfd = -1;$/;"	v	file:
+led_ctr_off	srclib/gpiointerface.c	/^int led_ctr_off(int num)$/;"	f
+led_ctr_on	srclib/gpiointerface.c	/^int led_ctr_on(int num)$/;"	f
+led_off	app/dev_process.c	/^void led_off(void *cmdp)$/;"	f
+led_off	app/dev_process_sec.c	/^int led_off(int num)$/;"	f
+led_off	app/dev_process_usec.c	/^int led_off(int num)$/;"	f
+led_off	app/dev_process_white.c	/^int led_off(int num)$/;"	f
+led_on	app/dev_process.c	/^void led_on(void *cmdp)$/;"	f
+led_on	app/dev_process_sec.c	/^int led_on(int num)$/;"	f
+led_on	app/dev_process_usec.c	/^int led_on(int num)$/;"	f
+led_on	app/dev_process_white.c	/^int led_on(int num)$/;"	f
+led_option	app/dev_process.c	/^void led_option(int num, int cmd)$/;"	f
+led_process	app/dev_process.c	/^void led_process(void *cmdp)$/;"	f
+led_process	app/sktgpio_server.c	/^static void led_process(char num, char data)$/;"	f	file:
+len	include/cmd.h	/^	int len;$/;"	m	struct:gpiocmd
+list	include/sktlist.h	/^	struct list_head  list;$/;"	m	struct:sktlist	typeref:struct:sktlist::list_head
+list	include/sktlist.h	/^	struct list_head list;$/;"	m	struct:sktnode	typeref:struct:sktnode::list_head
+list	srclib/socketlib.c	/^	struct list_head list;$/;"	m	struct:skt_node	typeref:struct:skt_node::list_head	file:
+list_add	include/list.h	/^static inline void list_add(struct list_head *new, struct list_head *head)$/;"	f
+list_add_tail	include/list.h	/^static inline void list_add_tail(struct list_head *new, struct list_head *head)$/;"	f
+list_cut_position	include/list.h	/^static inline void list_cut_position(struct list_head *list,$/;"	f
+list_del	include/list.h	/^static inline void list_del(struct list_head *entry)$/;"	f
+list_del_init	include/list.h	/^static inline void list_del_init(struct list_head *entry)$/;"	f
+list_empty	include/list.h	/^static inline int list_empty(const struct list_head *head)$/;"	f
+list_empty_careful	include/list.h	/^static inline int list_empty_careful(const struct list_head *head)$/;"	f
+list_entry	include/list.h	327;"	d
+list_first_entry	include/list.h	338;"	d
+list_for_each	include/list.h	346;"	d
+list_for_each_entry	include/list.h	399;"	d
+list_for_each_entry_continue	include/list.h	435;"	d
+list_for_each_entry_continue_reverse	include/list.h	449;"	d
+list_for_each_entry_from	include/list.h	462;"	d
+list_for_each_entry_reverse	include/list.h	410;"	d
+list_for_each_entry_safe	include/list.h	473;"	d
+list_for_each_entry_safe_continue	include/list.h	489;"	d
+list_for_each_entry_safe_from	include/list.h	505;"	d
+list_for_each_entry_safe_reverse	include/list.h	520;"	d
+list_for_each_prev	include/list.h	368;"	d
+list_for_each_prev_safe	include/list.h	388;"	d
+list_for_each_safe	include/list.h	378;"	d
+list_for_search_attr	srclib/socketlib.c	/^static inline void *list_for_search_attr(const char *name)$/;"	f	file:
+list_for_search_node	srclib/socketlib.c	/^static inline void *list_for_search_node(const char *name)$/;"	f	file:
+list_head	include/list.h	/^struct list_head {$/;"	s
+list_is_last	include/list.h	/^static inline int list_is_last(const struct list_head *list,$/;"	f
+list_is_singular	include/list.h	/^static inline int list_is_singular(const struct list_head *head)$/;"	f
+list_move	include/list.h	/^static inline void list_move(struct list_head *list, struct list_head *head)$/;"	f
+list_move_tail	include/list.h	/^static inline void list_move_tail(struct list_head *list,$/;"	f
+list_prepare_entry	include/list.h	423;"	d
+list_replace	include/list.h	/^static inline void list_replace(struct list_head *old,$/;"	f
+list_replace_init	include/list.h	/^static inline void list_replace_init(struct list_head *old,$/;"	f
+list_splice	include/list.h	/^static inline void list_splice(const struct list_head *list,$/;"	f
+list_splice_init	include/list.h	/^static inline void list_splice_init(struct list_head *list,$/;"	f
+list_splice_tail	include/list.h	/^static inline void list_splice_tail(struct list_head *list,$/;"	f
+list_splice_tail_init	include/list.h	/^static inline void list_splice_tail_init(struct list_head *list,$/;"	f
+listenmax	srclib/socketlib.c	/^	int listenmax;$/;"	m	struct:skt_attr	file:
+lock_open	app/dev_process_sec.c	/^void lock_open(void)$/;"	f
+lock_reg	srclib/file_io.c	/^int lock_reg(int fd, int cmd, int ype, off_t offset, int whence, off_t len)$/;"	f
+lock_test	srclib/file_io.c	/^pid_t lock_test(int fd, int type, off_t offset, int whence, off_t len)$/;"	f
+logcmd	srclib/log.c	/^const char *logcmd[]={"a", "--Connected---", "--Writecreat--", "--Writeappend-", "--Readfilesize","--Readfile----","--Disconnected", "--Errorcmd----", "--DPMSTART---", "--DPSRCVDATA--", "--DPSSNDDATA--"};$/;"	v
+logfile	srclib/getenv.c	/^	char *logfile;$/;"	m	struct:dp_env	file:
+logmutex	srclib/log.c	/^pthread_mutex_t  logmutex;$/;"	v
+logsys_init	srclib/log.c	/^int logsys_init(void)$/;"	f
+logwrite	srclib/log.c	/^int logwrite(char *lname, int cmd, char *ip, int port, char *buf)$/;"	f
+main	app/gpioclient.c	/^int main(int argc,  char **argv)$/;"	f
+main	app/sktgpio_server.c	/^int main(int argc, char **argv)$/;"	f
+manu_beep	app/dev_process_sec.c	/^void manu_beep(int bp)$/;"	f
+manu_beep	app/dev_process_white.c	/^void manu_beep(int bp)$/;"	f
+max	include/apue.h	36;"	d
+maxchannel	srclib/client.c	/^	int maxchannel;$/;"	m	struct:dpc_channel_ctx	file:
+meminfo	app/dev_process_sec.c	/^struct mtd_info_user meminfo;$/;"	v	typeref:struct:mtd_info_user
+meminfo	app/dev_process_white.c	/^struct mtd_info_user meminfo;$/;"	v	typeref:struct:mtd_info_user
+min	include/apue.h	35;"	d
+mkfilename	srclib/file_io.c	/^int mkfilename(char *str, const char *format, ...)$/;"	f
+mutex	include/sktlist.h	/^	pthread_mutex_t  mutex;$/;"	m	struct:sktlist
+mutex	srclib/socketlib.c	/^	pthread_mutex_t mutex;\/\/lock attr$/;"	m	struct:skt_attr	file:
+mutex	srclib/socketlib.c	/^	pthread_mutex_t mutex;\/\/lock node$/;"	m	struct:skt_node	file:
+mutex_attr	srclib/socketlib.c	/^	pthread_mutexattr_t *mutex_attr;$/;"	m	struct:skt_attr	file:
+mutex_attr	srclib/socketlib.c	/^	pthread_mutexattr_t *mutex_attr;$/;"	m	struct:skt_node	file:
+my_a5_a11_clear	app/dev_process_sec.c	/^int my_a5_a11_clear(char recvdata)$/;"	f
+my_a5_a11_getstatus	app/dev_process_sec.c	/^int my_a5_a11_getstatus(void)$/;"	f
+my_a5_a11_set	app/dev_process_sec.c	/^int my_a5_a11_set(char recvdata)$/;"	f
+my_system	app/dev_process_sec.c	/^int my_system(const char*cmd_line)$/;"	f
+my_system	app/dev_process_white.c	/^int my_system(const char*cmd_line)$/;"	f
+myflash_erase	app/dev_process_sec.c	/^int myflash_erase(void)$/;"	f
+myflash_erase	app/dev_process_white.c	/^int myflash_erase(void)$/;"	f
+mynand_erase	app/dev_process_sec.c	/^int mynand_erase()$/;"	f
+mynand_erase	app/dev_process_white.c	/^int mynand_erase()$/;"	f
+mynand_init	app/dev_process_sec.c	/^int mynand_init()$/;"	f
+mynand_init	app/dev_process_white.c	/^int mynand_init()$/;"	f
+mynand_read	app/dev_process_sec.c	/^int mynand_read(void)$/;"	f
+mynand_read	app/dev_process_white.c	/^int mynand_read(void)$/;"	f
+mynand_write	app/dev_process_sec.c	/^int mynand_write(int len,char *buf)$/;"	f
+mynand_write	app/dev_process_white.c	/^int mynand_write(int len,char *buf)$/;"	f
+myread_block	app/dev_process_sec.c	/^int myread_block(void)$/;"	f
+myread_block	app/dev_process_white.c	/^int myread_block(void)$/;"	f
+myrebuild	app/dev_process_sec.c	/^int myrebuild(void)$/;"	f
+myrebuild	app/dev_process_white.c	/^int myrebuild(void)$/;"	f
+mywrite_block	app/dev_process_sec.c	/^int mywrite_block(int len,char * buf)$/;"	f
+mywrite_block	app/dev_process_white.c	/^int mywrite_block(int len,char * buf)$/;"	f
+name	include/sktlist.h	/^	char *name;$/;"	m	struct:sktnode
+name	srclib/socketlib.c	/^	char *name;$/;"	m	struct:skt_list_head	file:
+name	srclib/socketlib.c	/^	char *name;$/;"	m	struct:skt_node	file:
+name	srclib/socketlib.c	/^	char *name;\/\/attr name$/;"	m	struct:skt_attr	file:
+nandflash_7825	app/dev_process_sec.c	/^struct nandflash_7825{$/;"	s	file:
+nandflash_7825	app/dev_process_white.c	/^struct nandflash_7825{$/;"	s	file:
+nandhandle	app/dev_process_sec.c	/^}nandhandle = {-1,0};$/;"	v	typeref:struct:nandflash_7825
+nandhandle	app/dev_process_white.c	/^}nandhandle = {-1,0};$/;"	v	typeref:struct:nandflash_7825
+nauto_beep	app/dev_process.c	/^void nauto_beep(void *cmdp)$/;"	f
+newstats	app/dev_process_sec.c	/^struct mtd_ecc_stats oldstats, newstats;$/;"	v	typeref:struct:
+newstats	app/dev_process_white.c	/^struct mtd_ecc_stats oldstats, newstats;$/;"	v	typeref:struct:
+next	include/list.h	/^	struct hlist_node *next, **pprev;$/;"	m	struct:hlist_node	typeref:struct:hlist_node::hlist_node
+next	include/list.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::list_head
+nmutex	srclib/socketlib.c	/^	pthread_mutex_t nmutex;$/;"	m	struct:skt_list_head	file:
+oldstats	app/dev_process_sec.c	/^struct mtd_ecc_stats oldstats, newstats;$/;"	v	typeref:struct:mtd_ecc_stats
+oldstats	app/dev_process_white.c	/^struct mtd_ecc_stats oldstats, newstats;$/;"	v	typeref:struct:mtd_ecc_stats
+open_elock	srclib/gpiointerface.c	/^int open_elock(void)$/;"	f
+parent	srclib/socketlib.c	/^	void *parent;\/\/point to server$/;"	m	struct:skt_node	file:
+pattr	app/sktgpio_server.c	/^	pthread_attr_t pattr;$/;"	m	struct:pthread_sktgpio	file:
+plist	srclib/socketlib.c	/^	struct list_head plist;\/\/list head start of attr,client list$/;"	m	struct:skt_node	typeref:struct:skt_node::list_head	file:
+port	srclib/socketlib.c	/^	int port;$/;"	m	struct:skt_attr	file:
+port	srclib/socketlib.c	/^	int port;$/;"	m	struct:skt_node	file:
+pox_system	app/dev_process_sec.c	/^int static inline pox_system(const char * cmdstring)$/;"	f	file:
+pox_system	app/dev_process_white.c	/^int static inline pox_system(const char * cmdstring)$/;"	f	file:
+pprev	include/list.h	/^	struct hlist_node *next, **pprev;$/;"	m	struct:hlist_node	typeref:struct:hlist_node::
+prev	include/list.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::
+print_attr	srclib/socketlib.c	/^void print_attr(void)$/;"	f
+print_node	srclib/socketlib.c	/^void print_node(void)$/;"	f
+protocol	srclib/socketlib.c	/^	int protocol;\/\/0$/;"	m	struct:skt_attr	file:
+protocol	srclib/socketlib.c	/^	int protocol;\/\/0$/;"	m	struct:skt_node	file:
+psktgpio	app/sktgpio_server.c	/^static struct pthread_sktgpio  psktgpio;$/;"	v	typeref:struct:pthread_sktgpio	file:
+pthread_sktgpio	app/sktgpio_server.c	/^struct pthread_sktgpio{$/;"	s	file:
+random_process	app/dev_process.c	/^void random_process(void *cmdp)$/;"	f
+random_process	app/sktgpio_server.c	/^char *random_process(char channel, int len)$/;"	f
+rbuf	app/dev_process_sec.c	/^unsigned char *wbuf = NULL,*rbuf = NULL;$/;"	v
+rbuf	app/dev_process_white.c	/^unsigned char *wbuf = NULL,*rbuf = NULL;$/;"	v
+rcvbufsize	srclib/socketlib.c	/^	int rcvbufsize;$/;"	m	struct:sockopt	file:
+rcvlowat	srclib/socketlib.c	/^	int rcvlowat;$/;"	m	struct:sockopt	file:
+rcvnamep	srclib/client.c	/^	char *rcvnamep;$/;"	m	struct:dpc_channel_ctx	file:
+read_lock	include/apue.h	75;"	d
+read_mtd3	srclib/gpiointerface.c	/^int read_mtd3(void)$/;"	f
+readfile	srclib/file_io.c	/^int readfile(const char *name, char *buf, int len)$/;"	f
+readfile_where	srclib/file_io.c	/^int readfile_where(const char *name, char *buf, int len, char *ip, int port, int offset)$/;"	f
+readw_lock	include/apue.h	76;"	d
+rebuild_mtd3	srclib/gpiointerface.c	/^int rebuild_mtd3(void)$/;"	f
+reduptype	app/dev_process.c	/^	int reduptype;$/;"	m	struct:sysio	file:
+reduptype	app/dev_process_sec.c	/^	int reduptype;$/;"	m	struct:sysio	file:
+reduptype	app/dev_process_usec.c	/^	int reduptype;$/;"	m	struct:sysio	file:
+reduptype	app/dev_process_white.c	/^	int reduptype;$/;"	m	struct:sysio	file:
+reuse	srclib/socketlib.c	/^	int reuse;$/;"	m	struct:sockopt	file:
+rever	include/sktlist.h	/^	void *rever;$/;"	m	struct:sktnode
+rmutex	srclib/client.c	/^	pthread_mutex_t rmutex;$/;"	m	struct:dpc_channel_ctx	file:
+rtout	srclib/socketlib.c	/^	struct timeval rtout;$/;"	m	struct:sockopt	typeref:struct:sockopt::timeval	file:
+saddr	srclib/socketlib.c	/^	struct sockaddr_in saddr;\/\/dest addr$/;"	m	struct:skt_node	typeref:struct:skt_node::sockaddr_in	file:
+saddr	srclib/socketlib.c	/^	struct sockaddr_in saddr;\/\/server listen addr$/;"	m	struct:skt_attr	typeref:struct:skt_attr::sockaddr_in	file:
+saddrlen	srclib/socketlib.c	/^	socklen_t  saddrlen;$/;"	m	struct:skt_attr	file:
+saddrlen	srclib/socketlib.c	/^	socklen_t  saddrlen;\/\/dest addr leng$/;"	m	struct:skt_node	file:
+seirmode	app/dev_process.c	/^enum seirmode{$/;"	g	file:
+seirmode	app/dev_process_sec.c	/^enum seirmode{$/;"	g	file:
+seirmode	app/dev_process_usec.c	/^enum seirmode{$/;"	g	file:
+send_to_sktlist	srclib/sktlist.c	/^int send_to_sktlist(void *c)$/;"	f
+set_ac4	app/dev_process_sec.c	/^void set_ac4(void)$/;"	f
+set_uart	app/dev_process_sec.c	/^void set_uart(void)$/;"	f
+sigfunc	include/apue.h	/^typedef void sigfunc(int);$/;"	t
+sighandler_t	app/dev_process_sec.c	/^typedef void (*sighandler_t) (int);$/;"	t	file:
+sighandler_t	app/dev_process_white.c	/^typedef void (*sighandler_t) (int);$/;"	t	file:
+skt_accept	srclib/socketlib.c	/^int skt_accept(char *attrname, char *nodename)$/;"	f
+skt_alloc_attr	srclib/socketlib.c	/^void *skt_alloc_attr(const int type, const int port)$/;"	f
+skt_alloc_node	srclib/socketlib.c	/^void *skt_alloc_node(const int type, const char *sip, const int port)$/;"	f
+skt_attr	srclib/socketlib.c	/^struct skt_attr{ \/\/descript socket server$/;"	s	file:
+skt_attr_regester	srclib/socketlib.c	/^int skt_attr_regester(const void *attr, const char *name)$/;"	f
+skt_close_attr	srclib/socketlib.c	/^void *skt_close_attr(char *name)$/;"	f
+skt_close_free_node	srclib/socketlib.c	/^void skt_close_free_node(char *name)$/;"	f
+skt_close_node	srclib/socketlib.c	/^void *skt_close_node(char *name)$/;"	f
+skt_free_attr	srclib/socketlib.c	/^int skt_free_attr(void *attrp)$/;"	f
+skt_free_node	srclib/socketlib.c	/^int skt_free_node(void *nodp)$/;"	f
+skt_head	srclib/socketlib.c	/^static struct skt_list_head skt_head={NULL};$/;"	v	typeref:struct:skt_list_head	file:
+skt_list_head	srclib/socketlib.c	/^struct skt_list_head{$/;"	s	file:
+skt_node	srclib/socketlib.c	/^struct skt_node{$/;"	s	file:
+skt_node_regester	srclib/socketlib.c	/^int skt_node_regester(void *node, char *name)$/;"	f
+skt_procces_fn	app/sktgpio_server.c	/^void *skt_procces_fn(void *args)$/;"	f
+skt_recv	srclib/socketlib.c	/^int skt_recv(char *name, void *rbuf, size_t rlen)$/;"	f
+skt_send	srclib/socketlib.c	/^int skt_send(void *name, void *sbuf, size_t slen)$/;"	f
+skt_shutdown	srclib/socketlib.c	/^void *skt_shutdown(char *name, int how)$/;"	f
+skt_sys_free	srclib/socketlib.c	/^void skt_sys_free(const char *sysname)$/;"	f
+skt_sys_init	srclib/socketlib.c	/^int skt_sys_init(const char *sys_name)$/;"	f
+sktgpio_pthread_create	app/sktgpio_server.c	/^int sktgpio_pthread_create(void)$/;"	f
+sktlist	include/sktlist.h	/^struct sktlist{$/;"	s
+sktlist_init	srclib/sktlist.c	/^void sktlist_init(void)$/;"	f
+sktnode	include/sktlist.h	/^struct sktnode{$/;"	s
+slist	srclib/sktlist.c	/^struct sktlist slist;$/;"	v	typeref:struct:sktlist
+slp	app/sktgpio_server.c	/^	struct sktlist *slp;$/;"	m	struct:pthread_sktgpio	typeref:struct:pthread_sktgpio::sktlist	file:
+smutex	srclib/client.c	/^	pthread_mutex_t smutex;$/;"	m	struct:dpc_channel_ctx	file:
+sndbufsize	srclib/socketlib.c	/^	int sndbufsize;$/;"	m	struct:sockopt	file:
+sndlowat	srclib/socketlib.c	/^	int sndlowat;$/;"	m	struct:sockopt	file:
+sndnamep	srclib/client.c	/^	char *sndnamep;$/;"	m	struct:dpc_channel_ctx	file:
+sockopt	srclib/socketlib.c	/^struct sockopt{$/;"	s	file:
+sopt	srclib/socketlib.c	/^	struct sockopt sopt;	$/;"	m	struct:skt_attr	typeref:struct:skt_attr::sockopt	file:
+sopt	srclib/socketlib.c	/^	struct sockopt sopt;	$/;"	m	struct:skt_node	typeref:struct:skt_node::sockopt	file:
+space_free	app/dev_process_sec.c	/^int space_free()$/;"	f
+space_free	app/dev_process_white.c	/^int space_free()$/;"	f
+start	include/cmd.h	/^	char start;$/;"	m	struct:gpiocmd
+stid	app/sktgpio_server.c	/^	pthread_t stid;$/;"	m	struct:pthread_sktgpio	file:
+stout	srclib/socketlib.c	/^	struct timeval stout;$/;"	m	struct:sockopt	typeref:struct:sockopt::timeval	file:
+str_process	app/dev_process_sec.c	/^int str_process(const char *s)$/;"	f
+str_process	app/dev_process_white.c	/^int str_process(const char *s)$/;"	f
+subcmd	include/cmd.h	/^	char subcmd;$/;"	m	struct:gpiocmd
+sys_log	include/bdversion.h	14;"	d
+sys_log_mode_free	srclib/bdversion.c	/^void sys_log_mode_free(void)$/;"	f
+sys_log_mode_init	srclib/bdversion.c	/^void sys_log_mode_init(const char *ident, int option, int facility)$/;"	f
+sys_version_log_mode_init	srclib/bdversion.c	/^int sys_version_log_mode_init(char *name, char *str)$/;"	f
+sysio	app/dev_process.c	/^struct sysio{$/;"	s	file:
+sysio	app/dev_process_sec.c	/^struct sysio{$/;"	s	file:
+sysio	app/dev_process_usec.c	/^struct sysio{$/;"	s	file:
+sysio	app/dev_process_white.c	/^struct sysio{$/;"	s	file:
+type	srclib/socketlib.c	/^	int type;\/\/$/;"	m	struct:skt_attr	file:
+type	srclib/socketlib.c	/^	int type;\/\/SOCK_STREAM OR SOCK DGRAM$/;"	m	struct:skt_node	file:
+uart_mode_ac4	srclib/gpiointerface.c	/^int uart_mode_ac4(void)$/;"	f
+uart_mode_console	srclib/gpiointerface.c	/^int uart_mode_console(void)$/;"	f
+uart_process	app/dev_process.c	/^void uart_process(void *cmdp)$/;"	f
+un_lock	include/apue.h	79;"	d
+wbuf	app/dev_process_sec.c	/^unsigned char *wbuf = NULL,*rbuf = NULL;$/;"	v
+wbuf	app/dev_process_white.c	/^unsigned char *wbuf = NULL,*rbuf = NULL;$/;"	v
+write_lock	include/apue.h	77;"	d
+write_mtd3	srclib/gpiointerface.c	/^int write_mtd3(int len,char *data)$/;"	f
+writefile_append	srclib/file_io.c	/^int writefile_append(const char *name, char *buf, int len)$/;"	f
+writefile_new	srclib/file_io.c	/^int writefile_new(const char *name, char *buf, int len)$/;"	f
+writew_lock	include/apue.h	78;"	d

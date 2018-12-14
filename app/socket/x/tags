@@ -1,0 +1,719 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ARRAY_SIZE	include/iscsi_hdr.h	22;"	d
+ARRAY_SIZE_MAX	include/iscsi_hdr.h	23;"	d
+AUTH_CHAP	include/iscsid.h	79;"	d
+AUTH_NONE	include/iscsid.h	78;"	d
+AUTH_STATE_CHALLENGE	include/iscsid.h	73;"	d
+AUTH_STATE_START	include/iscsid.h	72;"	d
+AUTH_UNKNOWN	include/iscsid.h	77;"	d
+BE	include/cmd.h	13;"	d
+BE_16	include/cmd.h	37;"	d
+BE_32	include/cmd.h	39;"	d
+BE_64	include/cmd.h	41;"	d
+BHS_SIZE	include/iscsid.h	82;"	d
+BINSDIR	app/Makefile	/^BINSDIR=..\/bin$/;"	m
+CFLAGS	libsrc/Makefile	/^CFLAGS=-lpthread -shared -Wall -g -I${INCLUDEDIR}$/;"	m
+DEFAULT_LISTENMAX	include/socketlib.h	41;"	d
+DEFAULT_RCVBUFSIZE	include/socketlib.h	30;"	d
+DEFAULT_RCVLOWAT	include/socketlib.h	31;"	d
+DEFAULT_REUSE	include/socketlib.h	29;"	d
+DEFAULT_RTOUTSEC	include/socketlib.h	32;"	d
+DEFAULT_RTOUTUSEC	include/socketlib.h	33;"	d
+DEFAULT_SNDBUFSIZE	include/socketlib.h	35;"	d
+DEFAULT_SNDLOWAT	include/socketlib.h	36;"	d
+DEFAULT_STOUTSEC	include/socketlib.h	37;"	d
+DEFAULT_STOUTUSEC	include/socketlib.h	38;"	d
+DIGEST_UNKNOWN	include/iscsid.h	80;"	d
+ESKTACCEPTACCEPT	include/socketlib.h	24;"	d
+ESKTACCEPTALLOCNODE	include/socketlib.h	23;"	d
+ESKTACCEPTCHECKNODENAME	include/socketlib.h	25;"	d
+ESKTACCEPTSEARCHATTR	include/socketlib.h	22;"	d
+ESKTATTRREGBIND	include/socketlib.h	17;"	d
+ESKTATTRREGCHECHNAME	include/socketlib.h	15;"	d
+ESKTATTRREGLISTEN	include/socketlib.h	18;"	d
+ESKTATTRREGSOCKET	include/socketlib.h	16;"	d
+ESKTMLC	include/socketlib.h	14;"	d
+ESKTNODEREGCHECKNAME	include/socketlib.h	19;"	d
+ESKTNODEREGCONNECT	include/socketlib.h	21;"	d
+ESKTNODEREGSOCKET	include/socketlib.h	20;"	d
+ESKTRECVSEARCHNODE	include/socketlib.h	27;"	d
+ESKTSENDSEARCHNODE	include/socketlib.h	26;"	d
+EXTRA_CFLAGS	app/Makefile	/^EXTRA_CFLAGS = -Wno-unused-parameter$/;"	m
+FIFO_NAME_LEN	include/socketlib.h	51;"	d
+FIFO_SOCKET	include/iscsi_hdr.h	165;"	d
+FIFO_SR_NAME	include/socketlib.h	48;"	d
+FIFO_SS_NAME	include/socketlib.h	47;"	d
+FIFO_STORAGE	include/iscsi_hdr.h	164;"	d
+HLIST_HEAD	include/list.h	542;"	d
+HLIST_HEAD_INIT	include/list.h	541;"	d
+INCLUDEDIR	app/Makefile	/^INCLUDEDIR=..\/include$/;"	m
+INCLUDEDIR	libsrc/Makefile	/^INCLUDEDIR=..\/include$/;"	m
+INCOMING_BUFSIZE	include/iscsid.h	89;"	d
+INCOMING_MAX	include/iscsid.h	105;"	d
+INIT_HLIST_HEAD	include/list.h	543;"	d
+INIT_HLIST_NODE	include/list.h	/^static inline void INIT_HLIST_NODE(struct hlist_node *h)$/;"	f
+INIT_LIST_HEAD	include/list.h	/^static inline void INIT_LIST_HEAD(struct list_head *list)$/;"	f
+IOSTATE_FREE	include/iscsid.h	51;"	d
+IOSTATE_READ_AHS_DATA	include/iscsid.h	53;"	d
+IOSTATE_READ_BHS	include/iscsid.h	52;"	d
+IOSTATE_WRITE_AHS	include/iscsid.h	55;"	d
+IOSTATE_WRITE_BHS	include/iscsid.h	54;"	d
+IOSTATE_WRITE_DATA	include/iscsid.h	56;"	d
+ISCSID_H	include/iscsid.h	18;"	d
+ISCSI_AHSTYPE_CDB	include/iscsi_hdr.h	78;"	d
+ISCSI_AHSTYPE_RLENGTH	include/iscsi_hdr.h	79;"	d
+ISCSI_ALLOWED_PORTAL_ATTR_NAME	include/param.h	23;"	d
+ISCSI_CMD_ACA	include/iscsi_hdr.h	60;"	d
+ISCSI_CMD_ATTR_MASK	include/iscsi_hdr.h	55;"	d
+ISCSI_CMD_FINAL	include/iscsi_hdr.h	52;"	d
+ISCSI_CMD_HEAD_OF_QUEUE	include/iscsi_hdr.h	59;"	d
+ISCSI_CMD_ORDERED	include/iscsi_hdr.h	58;"	d
+ISCSI_CMD_READ	include/iscsi_hdr.h	53;"	d
+ISCSI_CMD_SIMPLE	include/iscsi_hdr.h	57;"	d
+ISCSI_CMD_UNTAGGED	include/iscsi_hdr.h	56;"	d
+ISCSI_CMD_WRITE	include/iscsi_hdr.h	54;"	d
+ISCSI_ENABLED_ATTR_NAME	include/param.h	21;"	d
+ISCSI_FLG_BIRESIDUAL_OVERFLOW	include/iscsi_hdr.h	95;"	d
+ISCSI_FLG_BIRESIDUAL_UNDERFLOW	include/iscsi_hdr.h	94;"	d
+ISCSI_FLG_CONTINUE	include/iscsi_hdr.h	81;"	d
+ISCSI_FLG_CSG_FULL_FEATURE	include/iscsi_hdr.h	86;"	d
+ISCSI_FLG_CSG_LOGIN	include/iscsi_hdr.h	85;"	d
+ISCSI_FLG_CSG_MASK	include/iscsi_hdr.h	87;"	d
+ISCSI_FLG_CSG_SECURITY	include/iscsi_hdr.h	84;"	d
+ISCSI_FLG_FINAL	include/iscsi_hdr.h	82;"	d
+ISCSI_FLG_NSG_FULL_FEATURE	include/iscsi_hdr.h	90;"	d
+ISCSI_FLG_NSG_LOGIN	include/iscsi_hdr.h	89;"	d
+ISCSI_FLG_NSG_MASK	include/iscsi_hdr.h	91;"	d
+ISCSI_FLG_NSG_SECURITY	include/iscsi_hdr.h	88;"	d
+ISCSI_FLG_RESIDUAL_OVERFLOW	include/iscsi_hdr.h	93;"	d
+ISCSI_FLG_RESIDUAL_UNDERFLOW	include/iscsi_hdr.h	92;"	d
+ISCSI_FLG_TRANSIT	include/iscsi_hdr.h	83;"	d
+ISCSI_HDR_H	include/iscsi_hdr.h	18;"	d
+ISCSI_ISNS_ACCESS_CONTROL_ATTR_NAME	include/param.h	20;"	d
+ISCSI_ISNS_ENTITY_ATTR_NAME	include/param.h	22;"	d
+ISCSI_ISNS_SERVER_ATTR_NAME	include/param.h	19;"	d
+ISCSI_OPCODE_MASK	include/iscsi_hdr.h	28;"	d
+ISCSI_OP_ASYNC_EVENT	include/iscsi_hdr.h	49;"	d
+ISCSI_OP_IMMEDIATE	include/iscsi_hdr.h	27;"	d
+ISCSI_OP_LOGIN_CMD	include/iscsi_hdr.h	34;"	d
+ISCSI_OP_LOGIN_RSP	include/iscsi_hdr.h	44;"	d
+ISCSI_OP_LOGOUT_CMD	include/iscsi_hdr.h	37;"	d
+ISCSI_OP_LOGOUT_RSP	include/iscsi_hdr.h	47;"	d
+ISCSI_OP_NOP_IN	include/iscsi_hdr.h	41;"	d
+ISCSI_OP_NOP_OUT	include/iscsi_hdr.h	31;"	d
+ISCSI_OP_R2T_RSP	include/iscsi_hdr.h	48;"	d
+ISCSI_OP_REJECT_MSG	include/iscsi_hdr.h	50;"	d
+ISCSI_OP_RETRY	include/iscsi_hdr.h	26;"	d
+ISCSI_OP_SCSI_CMD	include/iscsi_hdr.h	32;"	d
+ISCSI_OP_SCSI_DATA	include/iscsi_hdr.h	36;"	d
+ISCSI_OP_SCSI_DATA_IN	include/iscsi_hdr.h	46;"	d
+ISCSI_OP_SCSI_RSP	include/iscsi_hdr.h	42;"	d
+ISCSI_OP_SCSI_TASK_MGT_MSG	include/iscsi_hdr.h	33;"	d
+ISCSI_OP_SCSI_TASK_MGT_RSP	include/iscsi_hdr.h	43;"	d
+ISCSI_OP_SNACK_CMD	include/iscsi_hdr.h	38;"	d
+ISCSI_OP_TEXT_CMD	include/iscsi_hdr.h	35;"	d
+ISCSI_OP_TEXT_RSP	include/iscsi_hdr.h	45;"	d
+ISCSI_PER_PORTAL_ACL_ATTR_NAME	include/param.h	24;"	d
+ISCSI_REASON_BOOKMARK_REJECT	include/iscsi_hdr.h	144;"	d
+ISCSI_REASON_DATA_DIGEST_ERROR	include/iscsi_hdr.h	136;"	d
+ISCSI_REASON_DATA_SNACK_REJECT	include/iscsi_hdr.h	137;"	d
+ISCSI_REASON_IMMEDIATE_COMMAND_REJECT	include/iscsi_hdr.h	140;"	d
+ISCSI_REASON_INVALID_PDU_FIELD	include/iscsi_hdr.h	143;"	d
+ISCSI_REASON_INVALID_SNACK	include/iscsi_hdr.h	142;"	d
+ISCSI_REASON_NEGOTIATION_RESET	include/iscsi_hdr.h	145;"	d
+ISCSI_REASON_NO_FULL_FEATURE_PHASE	include/iscsi_hdr.h	135;"	d
+ISCSI_REASON_PROTOCOL_ERROR	include/iscsi_hdr.h	138;"	d
+ISCSI_REASON_TASK_IN_PROGRESS	include/iscsi_hdr.h	141;"	d
+ISCSI_REASON_UNSUPPORTED_COMMAND	include/iscsi_hdr.h	139;"	d
+ISCSI_REASON_WAITING_LOGOUT	include/iscsi_hdr.h	146;"	d
+ISCSI_RESERVED_TAG	include/iscsi_hdr.h	133;"	d
+ISCSI_RESPONSE_COMMAND_COMPLETED	include/iscsi_hdr.h	97;"	d
+ISCSI_RESPONSE_TARGET_FAILURE	include/iscsi_hdr.h	98;"	d
+ISCSI_STATUS_ACCEPT	include/iscsi_hdr.h	108;"	d
+ISCSI_STATUS_AUTH_FAILED	include/iscsi_hdr.h	116;"	d
+ISCSI_STATUS_CONN_ADD_FAILED	include/iscsi_hdr.h	123;"	d
+ISCSI_STATUS_INITIATOR_ERR	include/iscsi_hdr.h	103;"	d
+ISCSI_STATUS_INIT_ERR	include/iscsi_hdr.h	115;"	d
+ISCSI_STATUS_INV_REQ_TYPE	include/iscsi_hdr.h	126;"	d
+ISCSI_STATUS_INV_SESSION_TYPE	include/iscsi_hdr.h	124;"	d
+ISCSI_STATUS_MISSING_FIELDS	include/iscsi_hdr.h	122;"	d
+ISCSI_STATUS_NO_RESOURCES	include/iscsi_hdr.h	131;"	d
+ISCSI_STATUS_NO_VERSION	include/iscsi_hdr.h	120;"	d
+ISCSI_STATUS_REDIRECT	include/iscsi_hdr.h	102;"	d
+ISCSI_STATUS_SESSION_NOT_FOUND	include/iscsi_hdr.h	125;"	d
+ISCSI_STATUS_SUCCESS	include/iscsi_hdr.h	101;"	d
+ISCSI_STATUS_SVC_UNAVAILABLE	include/iscsi_hdr.h	130;"	d
+ISCSI_STATUS_TARGET_ERR	include/iscsi_hdr.h	104;"	d
+ISCSI_STATUS_TARGET_ERROR	include/iscsi_hdr.h	129;"	d
+ISCSI_STATUS_TGT_FORBIDDEN	include/iscsi_hdr.h	117;"	d
+ISCSI_STATUS_TGT_MOVED_PERM	include/iscsi_hdr.h	112;"	d
+ISCSI_STATUS_TGT_MOVED_TEMP	include/iscsi_hdr.h	111;"	d
+ISCSI_STATUS_TGT_NOT_FOUND	include/iscsi_hdr.h	118;"	d
+ISCSI_STATUS_TGT_REMOVED	include/iscsi_hdr.h	119;"	d
+ISCSI_STATUS_TOO_MANY_CONN	include/iscsi_hdr.h	121;"	d
+ISCSI_TARGET_REDIRECTION_ATTR_NAME	include/param.h	25;"	d
+ISCSI_TARGET_REDIRECTION_VALUE_PERM	include/param.h	27;"	d
+ISCSI_TARGET_REDIRECTION_VALUE_TEMP	include/param.h	26;"	d
+ISCSI_USER_DIR_INCOMING	include/iscsid.h	91;"	d
+ISCSI_USER_DIR_OUTGOING	include/iscsid.h	92;"	d
+ISCSI_USER_NAME	include/iscsid.h	94;"	d
+ISCSI_USER_PASS	include/iscsid.h	95;"	d
+KEY_STATE_DONE	include/iscsid.h	49;"	d
+KEY_STATE_DONE_ADDED	include/iscsid.h	48;"	d
+KEY_STATE_REQUEST	include/iscsid.h	47;"	d
+KEY_STATE_START	include/iscsid.h	46;"	d
+LE	include/cmd.h	14;"	d
+LE_16	include/cmd.h	38;"	d
+LE_32	include/cmd.h	40;"	d
+LE_64	include/cmd.h	42;"	d
+LIB1	libsrc/Makefile	/^LIB1=${LIBDIR}\/libsocket.so$/;"	m
+LIB2	libsrc/Makefile	/^LIB2=${LIBDIR}\/libcmd.so$/;"	m
+LIB3	libsrc/Makefile	/^LIB3=${LIBDIR}\/libsktlist.so$/;"	m
+LIBDIR	libsrc/Makefile	/^LIBDIR=..\/lib$/;"	m
+LIBSDIR	app/Makefile	/^LIBSDIR=..\/lib$/;"	m
+LISTEN_MAX	include/iscsid.h	104;"	d
+LIST_HEAD	include/list.h	28;"	d
+LIST_HEAD_INIT	include/list.h	26;"	d
+LIST_POISON1	include/list.h	23;"	d
+LIST_POISON2	include/list.h	24;"	d
+NETMSG_LIB__H	include/socketlib.h	8;"	d
+OBJ1	libsrc/Makefile	/^OBJ1=socketlib.o$/;"	m
+OBJ2	libsrc/Makefile	/^OBJ2=cmd.o$/;"	m
+OBJ3	libsrc/Makefile	/^OBJ3=sktlist.o$/;"	m
+PARAMS_H	include/param.h	17;"	d
+PDU	include/iscsid.h	/^struct PDU {$/;"	s
+POLL_INCOMING	include/iscsid.h	/^	POLL_INCOMING,$/;"	e	enum:__anon2
+POLL_IPC	include/iscsid.h	/^	POLL_IPC = POLL_LISTEN + LISTEN_MAX,$/;"	e	enum:__anon2
+POLL_ISER_LISTEN	include/iscsid.h	/^	POLL_ISER_LISTEN,$/;"	e	enum:__anon2
+POLL_ISNS	include/iscsid.h	/^	POLL_ISNS,$/;"	e	enum:__anon2
+POLL_LISTEN	include/iscsid.h	/^	POLL_LISTEN,$/;"	e	enum:__anon2
+POLL_MAX	include/iscsid.h	/^	POLL_MAX = POLL_INCOMING + INCOMING_MAX,$/;"	e	enum:__anon2
+POLL_NL	include/iscsid.h	/^	POLL_NL,$/;"	e	enum:__anon2
+POLL_SCN	include/iscsid.h	/^	POLL_SCN,$/;"	e	enum:__anon2
+POLL_SCN_LISTEN	include/iscsid.h	/^	POLL_SCN_LISTEN,$/;"	e	enum:__anon2
+SAM_STAT_ACA_ACTIVE	include/iscsi_hdr.h	161;"	d
+SAM_STAT_BUSY	include/iscsi_hdr.h	155;"	d
+SAM_STAT_CHECK_CONDITION	include/iscsi_hdr.h	153;"	d
+SAM_STAT_COMMAND_TERMINATED	include/iscsi_hdr.h	159;"	d
+SAM_STAT_CONDITION_MET	include/iscsi_hdr.h	154;"	d
+SAM_STAT_GOOD	include/iscsi_hdr.h	152;"	d
+SAM_STAT_INTERMEDIATE	include/iscsi_hdr.h	156;"	d
+SAM_STAT_INTERMEDIATE_CONDITION_MET	include/iscsi_hdr.h	157;"	d
+SAM_STAT_RESERVATION_CONFLICT	include/iscsi_hdr.h	158;"	d
+SAM_STAT_TASK_ABORTED	include/iscsi_hdr.h	162;"	d
+SAM_STAT_TASK_SET_FULL	include/iscsi_hdr.h	160;"	d
+SCST_DATA_BIDI	include/iscsi_hdr.h	/^        SCST_DATA_BIDI, \/* read | write *\/$/;"	e	enum:__anon3
+SCST_DATA_DIR	include/iscsi_hdr.h	/^const char *SCST_DATA_DIR[] = {$/;"	v
+SCST_DATA_NONE	include/iscsi_hdr.h	/^        SCST_DATA_NONE,$/;"	e	enum:__anon3
+SCST_DATA_READ	include/iscsi_hdr.h	/^        SCST_DATA_READ,$/;"	e	enum:__anon3
+SCST_DATA_UNKNOWN	include/iscsi_hdr.h	/^        SCST_DATA_UNKNOWN = 0,$/;"	e	enum:__anon3
+SCST_DATA_WRITE	include/iscsi_hdr.h	/^        SCST_DATA_WRITE,$/;"	e	enum:__anon3
+SESSION_DISCOVERY	include/iscsid.h	76;"	d
+SESSION_NORMAL	include/iscsid.h	75;"	d
+SKT_ATTR	include/socketlib.h	45;"	d
+SKT_CLIENT_MAX	include/socketlib.h	49;"	d
+SKT_NAME_LEN	include/socketlib.h	50;"	d
+SKT_NODE_NAME	include/socketlib.h	46;"	d
+SKT_SERVER_PORT	include/socketlib.h	42;"	d
+SOCKIN_CLEN	include/socketlib.h	40;"	d
+STATE_CLOSE	include/iscsid.h	68;"	d
+STATE_DROP	include/iscsid.h	70;"	d
+STATE_EXIT	include/iscsid.h	69;"	d
+STATE_FREE	include/iscsid.h	58;"	d
+STATE_FULL	include/iscsid.h	66;"	d
+STATE_KERNEL	include/iscsid.h	67;"	d
+STATE_LOGIN	include/iscsid.h	64;"	d
+STATE_LOGIN_FULL	include/iscsid.h	65;"	d
+STATE_SECURITY	include/iscsid.h	59;"	d
+STATE_SECURITY_AUTH	include/iscsid.h	60;"	d
+STATE_SECURITY_DONE	include/iscsid.h	61;"	d
+STATE_SECURITY_FULL	include/iscsid.h	63;"	d
+STATE_SECURITY_LOGIN	include/iscsid.h	62;"	d
+STORAGE_SERVER_IP	include/socketlib.h	44;"	d
+STORAGE_SERVER_PORT	include/socketlib.h	43;"	d
+Swap16	include/cmd.h	23;"	d
+Swap32	include/cmd.h	24;"	d
+Swap64	include/cmd.h	28;"	d
+TAG	app/Makefile	/^TAG=${BINSDIR}\/server  ${BINSDIR}\/client$/;"	m
+TAR	libsrc/Makefile	/^TAR=${LIB1} ${LIB2} ${LIB3}$/;"	m
+TYPES_H	include/types.h	18;"	d
+_APP_LIST_H	include/list.h	2;"	d
+__CMD__H	include/cmd.h	8;"	d
+__SKTLIST__H__	include/sktlist.h	8;"	d
+__be16	include/types.h	/^typedef u16 __bitwise __be16;$/;"	t
+__be32	include/types.h	/^typedef u32 __bitwise __be32;$/;"	t
+__be64	include/types.h	/^typedef u64 __bitwise __be64;$/;"	t
+__bitwise	include/types.h	77;"	d
+__bitwise	include/types.h	79;"	d
+__bitwise__	include/types.h	71;"	d
+__bitwise__	include/types.h	73;"	d
+__hlist_del	include/list.h	/^static inline void __hlist_del(struct hlist_node *n)$/;"	f
+__le16	include/types.h	/^typedef u16 __bitwise __le16;$/;"	t
+__le32	include/types.h	/^typedef u32 __bitwise __le32;$/;"	t
+__le64	include/types.h	/^typedef u64 __bitwise __le64;$/;"	t
+__list_add	include/list.h	/^static inline void __list_add(struct list_head *new,$/;"	f
+__list_cut_position	include/list.h	/^static inline void __list_cut_position(struct list_head *list,$/;"	f
+__list_del	include/list.h	/^static inline void __list_del(struct list_head * prev, struct list_head * next)$/;"	f
+__list_for_each	include/list.h	360;"	d
+__list_splice	include/list.h	/^static inline void __list_splice(const struct list_head *list,$/;"	f
+__packed	include/iscsi_hdr.h	/^} __packed;				\/* 48 *\/$/;"	v	typeref:struct:iscsi_hdr
+__packed	include/iscsi_hdr.h	/^} __packed;$/;"	v	typeref:struct:iscsi_ahs_hdr
+__packed	include/iscsi_hdr.h	/^} __packed;$/;"	v	typeref:struct:iscsi_data_in_hdr
+__packed	include/iscsi_hdr.h	/^} __packed;$/;"	v	typeref:struct:iscsi_data_out_hdr
+__packed	include/iscsi_hdr.h	/^} __packed;$/;"	v	typeref:struct:iscsi_login_req_hdr
+__packed	include/iscsi_hdr.h	/^} __packed;$/;"	v	typeref:struct:iscsi_login_rsp_hdr
+__packed	include/iscsi_hdr.h	/^} __packed;$/;"	v	typeref:struct:iscsi_logout_req_hdr
+__packed	include/iscsi_hdr.h	/^} __packed;$/;"	v	typeref:struct:iscsi_logout_rsp_hdr
+__packed	include/iscsi_hdr.h	/^} __packed;$/;"	v	typeref:struct:iscsi_reject_hdr
+__packed	include/iscsi_hdr.h	/^} __packed;$/;"	v	typeref:struct:iscsi_scsi_cmd_hdr
+__packed	include/iscsi_hdr.h	/^} __packed;$/;"	v	typeref:struct:iscsi_scsi_rsp_hdr
+__packed	include/iscsi_hdr.h	/^} __packed;$/;"	v	typeref:struct:iscsi_sense_data
+__packed	include/iscsi_hdr.h	/^} __packed;$/;"	v	typeref:struct:iscsi_task_mgt_hdr
+__packed	include/iscsi_hdr.h	/^} __packed;$/;"	v	typeref:struct:iscsi_text_req_hdr
+__packed	include/iscsi_hdr.h	/^} __packed;$/;"	v	typeref:struct:iscsi_text_rsp_hdr
+__packed	include/iscsi_hdr.h	/^} __packed;$/;"	v	typeref:union:iscsi_sid
+__packed	include/iscsi_hdr.h	21;"	d
+__sum16	include/types.h	/^typedef u16 __bitwise __sum16;$/;"	t
+__wsum	include/types.h	/^typedef u32 __bitwise __wsum;$/;"	t
+accept_create_cleanup	app/client.c	/^void accept_create_cleanup(void *args)$/;"	f
+accept_create_cleanup	app/server.c	/^void accept_create_cleanup(void *args)$/;"	f
+active_version	include/iscsi_hdr.h	/^	u8  active_version;		\/* Active version *\/$/;"	m	struct:iscsi_login_rsp_hdr
+ahs	include/iscsid.h	/^	void *ahs;$/;"	m	struct:PDU
+ahslength	include/iscsi_hdr.h	/^	u16 ahslength;$/;"	m	struct:iscsi_ahs_hdr
+ahslength	include/iscsi_hdr.h	/^	u8  ahslength;			\/* 4 *\/$/;"	m	struct:iscsi_hdr
+ahslength	include/iscsi_hdr.h	/^	u8  ahslength;$/;"	m	struct:iscsi_data_in_hdr
+ahslength	include/iscsi_hdr.h	/^	u8  ahslength;$/;"	m	struct:iscsi_data_out_hdr
+ahslength	include/iscsi_hdr.h	/^	u8  ahslength;$/;"	m	struct:iscsi_login_req_hdr
+ahslength	include/iscsi_hdr.h	/^	u8  ahslength;$/;"	m	struct:iscsi_login_rsp_hdr
+ahslength	include/iscsi_hdr.h	/^	u8  ahslength;$/;"	m	struct:iscsi_logout_req_hdr
+ahslength	include/iscsi_hdr.h	/^	u8  ahslength;$/;"	m	struct:iscsi_logout_rsp_hdr
+ahslength	include/iscsi_hdr.h	/^	u8  ahslength;$/;"	m	struct:iscsi_reject_hdr
+ahslength	include/iscsi_hdr.h	/^	u8  ahslength;$/;"	m	struct:iscsi_scsi_cmd_hdr
+ahslength	include/iscsi_hdr.h	/^	u8  ahslength;$/;"	m	struct:iscsi_scsi_rsp_hdr
+ahslength	include/iscsi_hdr.h	/^	u8  ahslength;$/;"	m	struct:iscsi_task_mgt_hdr
+ahslength	include/iscsi_hdr.h	/^	u8  ahslength;$/;"	m	struct:iscsi_text_req_hdr
+ahslength	include/iscsi_hdr.h	/^	u8  ahslength;$/;"	m	struct:iscsi_text_rsp_hdr
+ahssize	include/iscsid.h	/^	unsigned int ahssize;$/;"	m	struct:PDU
+ahstype	include/iscsi_hdr.h	/^	u8 ahstype;$/;"	m	struct:iscsi_ahs_hdr
+alloc_sktnode	libsrc/sktlist.c	/^void *alloc_sktnode(char *n)$/;"	f
+amutex	include/socketlib.h	/^	pthread_mutex_t amutex;$/;"	m	struct:skt_list_head
+attr_key	include/iscsid.h	/^	const char *attr_key;$/;"	m	struct:iscsi_attr
+attr_list	include/socketlib.h	/^	struct list_head attr_list;     \/\/ attr list$/;"	m	struct:skt_attr	typeref:struct:skt_attr::list_head
+attr_value	include/iscsid.h	/^	const char *attr_value;$/;"	m	struct:iscsi_attr
+be16_to_cpu	include/types.h	33;"	d
+be16_to_cpu	include/types.h	42;"	d
+be32_to_cpu	include/types.h	35;"	d
+be32_to_cpu	include/types.h	44;"	d
+bhs	include/iscsid.h	/^	struct iscsi_hdr bhs;$/;"	m	struct:PDU	typeref:struct:PDU::iscsi_hdr
+bi_residual_count	include/iscsi_hdr.h	/^	__be32 bi_residual_count;$/;"	m	struct:iscsi_scsi_rsp_hdr
+big_end_test	include/cmd.h	/^static bool big_end_test(void)  $/;"	f
+bool	include/iscsid.h	/^typedef enum {false = 0, true} bool;$/;"	t	typeref:enum:__anon1
+buffer_offset	include/iscsi_hdr.h	/^	__be32 buffer_offset;$/;"	m	struct:iscsi_data_in_hdr
+buffer_offset	include/iscsi_hdr.h	/^	__be32 buffer_offset;$/;"	m	struct:iscsi_data_out_hdr
+check_attr_name	libsrc/socketlib.c	/^static char *check_attr_name(const char *name)$/;"	f	file:
+check_node_name	libsrc/socketlib.c	/^static char *check_node_name(const char *name)$/;"	f	file:
+check_val	include/param.h	/^	int (*check_val)(const struct iscsi_key *, unsigned int *);$/;"	m	struct:iscsi_key_ops
+cid	include/iscsi_hdr.h	/^	u16 cid;			\/* Connection ID *\/$/;"	m	struct:iscsi_login_req_hdr
+cid	include/iscsi_hdr.h	/^	u16 cid;$/;"	m	struct:iscsi_logout_req_hdr
+cmd_exec_data_out	libsrc/cmd.c	/^void cmd_exec_data_out(struct iscsi_hdr *bhs, void *name,$/;"	f
+cmd_exec_login	libsrc/cmd.c	/^void cmd_exec_login(struct iscsi_hdr *bhs, void *name,$/;"	f
+cmd_exec_login_rsp	libsrc/cmd.c	/^void cmd_exec_login_rsp(struct iscsi_hdr *bhs,$/;"	f
+cmd_exec_scsi	libsrc/cmd.c	/^void cmd_exec_scsi(struct iscsi_hdr *bhs,$/;"	f
+cmd_exec_scsi_data_in	libsrc/cmd.c	/^void cmd_exec_scsi_data_in(struct iscsi_hdr *bhs,$/;"	f
+cmd_exec_scsi_rsp	libsrc/cmd.c	/^void cmd_exec_scsi_rsp(struct iscsi_hdr *bhs,$/;"	f
+cmd_exec_text	libsrc/cmd.c	/^void cmd_exec_text(struct iscsi_hdr *bhs, void *name,$/;"	f
+cmd_exec_text_rsp	libsrc/cmd.c	/^void cmd_exec_text_rsp(struct iscsi_hdr *bhs,$/;"	f
+cmd_recv	libsrc/cmd.c	/^struct iscsi_hdr *cmd_recv(char *nn)$/;"	f
+cmd_send	libsrc/cmd.c	/^int cmd_send(char *nn, char *data, int len)$/;"	f
+cmd_sn	include/iscsi_hdr.h	/^	u32 cmd_sn;$/;"	m	struct:iscsi_login_req_hdr
+cmd_sn	include/iscsi_hdr.h	/^	u32 cmd_sn;$/;"	m	struct:iscsi_logout_req_hdr
+cmd_sn	include/iscsi_hdr.h	/^	u32 cmd_sn;$/;"	m	struct:iscsi_scsi_cmd_hdr
+cmd_sn	include/iscsi_hdr.h	/^	u32 cmd_sn;$/;"	m	struct:iscsi_task_mgt_hdr
+cmd_sn	include/iscsi_hdr.h	/^	u32 cmd_sn;$/;"	m	struct:iscsi_text_req_hdr
+cmd_status	include/iscsi_hdr.h	/^	u8  cmd_status;$/;"	m	struct:iscsi_data_in_hdr
+cmd_status	include/iscsi_hdr.h	/^	u8  cmd_status;$/;"	m	struct:iscsi_scsi_rsp_hdr
+cnode_list	include/socketlib.h	/^	struct list_head cnode_list;    \/\/cli node list$/;"	m	struct:skt_attr	typeref:struct:skt_attr::list_head
+cond	include/sktlist.h	/^        pthread_cond_t cond;$/;"	m	struct:sktlist
+container_of	include/list.h	15;"	d
+cpu_to_be16	include/types.h	32;"	d
+cpu_to_be16	include/types.h	41;"	d
+cpu_to_be32	include/types.h	34;"	d
+cpu_to_be32	include/types.h	43;"	d
+cpu_to_le16	include/types.h	28;"	d
+cpu_to_le16	include/types.h	37;"	d
+cpu_to_le32	include/types.h	30;"	d
+cpu_to_le32	include/types.h	39;"	d
+ctid	include/socketlib.h	/^        pthread_t ctid[SKT_CLIENT_MAX];$/;"	m	struct:pthread_skt
+damain	include/socketlib.h	/^	int damain;                     \/\/AF_INET$/;"	m	struct:skt_node
+damain	include/socketlib.h	/^	int damain;                     \/\/af_inet$/;"	m	struct:skt_attr
+data	include/iscsi_hdr.h	/^	u8  data[0];$/;"	m	struct:iscsi_sense_data
+data	include/iscsid.h	/^	void *data;$/;"	m	struct:PDU
+data_length	include/iscsi_hdr.h	/^	__be32 data_length;$/;"	m	struct:iscsi_scsi_cmd_hdr
+data_sn	include/iscsi_hdr.h	/^	__be32 data_sn;$/;"	m	struct:iscsi_data_in_hdr
+data_sn	include/iscsi_hdr.h	/^	__be32 data_sn;$/;"	m	struct:iscsi_data_out_hdr
+data_sn	include/iscsi_hdr.h	/^	u32 data_sn;$/;"	m	struct:iscsi_reject_hdr
+datalength	include/iscsi_hdr.h	/^	u8  datalength[3];$/;"	m	struct:iscsi_data_in_hdr
+datalength	include/iscsi_hdr.h	/^	u8  datalength[3];$/;"	m	struct:iscsi_data_out_hdr
+datalength	include/iscsi_hdr.h	/^	u8  datalength[3];$/;"	m	struct:iscsi_hdr
+datalength	include/iscsi_hdr.h	/^	u8  datalength[3];$/;"	m	struct:iscsi_login_req_hdr
+datalength	include/iscsi_hdr.h	/^	u8  datalength[3];$/;"	m	struct:iscsi_login_rsp_hdr
+datalength	include/iscsi_hdr.h	/^	u8  datalength[3];$/;"	m	struct:iscsi_logout_req_hdr
+datalength	include/iscsi_hdr.h	/^	u8  datalength[3];$/;"	m	struct:iscsi_logout_rsp_hdr
+datalength	include/iscsi_hdr.h	/^	u8  datalength[3];$/;"	m	struct:iscsi_reject_hdr
+datalength	include/iscsi_hdr.h	/^	u8  datalength[3];$/;"	m	struct:iscsi_scsi_cmd_hdr
+datalength	include/iscsi_hdr.h	/^	u8  datalength[3];$/;"	m	struct:iscsi_scsi_rsp_hdr
+datalength	include/iscsi_hdr.h	/^	u8  datalength[3];$/;"	m	struct:iscsi_task_mgt_hdr
+datalength	include/iscsi_hdr.h	/^	u8  datalength[3];$/;"	m	struct:iscsi_text_req_hdr
+datalength	include/iscsi_hdr.h	/^	u8  datalength[3];$/;"	m	struct:iscsi_text_rsp_hdr
+datasize	include/iscsid.h	/^	unsigned int datasize;$/;"	m	struct:PDU
+decrypt	include/iscsi_hdr.h	/^        char decrypt;$/;"	m	struct:fifo_hdr
+dumpdata	include/types.h	/^void dumpdata(char *buf, int len)$/;"	f
+encrypt	include/iscsi_hdr.h	/^        char encrypt;$/;"	m	struct:fifo_hdr
+exp_cmd_sn	include/iscsi_hdr.h	/^	u32 exp_cmd_sn;$/;"	m	struct:iscsi_data_in_hdr
+exp_cmd_sn	include/iscsi_hdr.h	/^	u32 exp_cmd_sn;$/;"	m	struct:iscsi_login_rsp_hdr
+exp_cmd_sn	include/iscsi_hdr.h	/^	u32 exp_cmd_sn;$/;"	m	struct:iscsi_logout_rsp_hdr
+exp_cmd_sn	include/iscsi_hdr.h	/^	u32 exp_cmd_sn;$/;"	m	struct:iscsi_reject_hdr
+exp_cmd_sn	include/iscsi_hdr.h	/^	u32 exp_cmd_sn;$/;"	m	struct:iscsi_scsi_rsp_hdr
+exp_cmd_sn	include/iscsi_hdr.h	/^	u32 exp_cmd_sn;$/;"	m	struct:iscsi_text_rsp_hdr
+exp_data_sn	include/iscsi_hdr.h	/^	u32 exp_data_sn;$/;"	m	struct:iscsi_scsi_rsp_hdr
+exp_data_sn	include/iscsi_hdr.h	/^	u32 exp_data_sn;$/;"	m	struct:iscsi_task_mgt_hdr
+exp_sn	include/iscsi_hdr.h	/^	u32 exp_sn;			\/* 28 *\/$/;"	m	struct:iscsi_hdr
+exp_stat_sn	include/iscsi_hdr.h	/^	u32 exp_stat_sn;$/;"	m	struct:iscsi_data_out_hdr
+exp_stat_sn	include/iscsi_hdr.h	/^	u32 exp_stat_sn;$/;"	m	struct:iscsi_login_req_hdr
+exp_stat_sn	include/iscsi_hdr.h	/^	u32 exp_stat_sn;$/;"	m	struct:iscsi_logout_req_hdr
+exp_stat_sn	include/iscsi_hdr.h	/^	u32 exp_stat_sn;$/;"	m	struct:iscsi_scsi_cmd_hdr
+exp_stat_sn	include/iscsi_hdr.h	/^	u32 exp_stat_sn;$/;"	m	struct:iscsi_task_mgt_hdr
+exp_stat_sn	include/iscsi_hdr.h	/^	u32 exp_stat_sn;$/;"	m	struct:iscsi_text_req_hdr
+false	include/iscsid.h	/^typedef enum {false = 0, true} bool;$/;"	e	enum:__anon1
+fd	include/socketlib.h	/^	int fd;                         \/\/socket fd$/;"	m	struct:skt_attr
+fd	include/socketlib.h	/^	int fd;                         \/\/socket fd$/;"	m	struct:skt_node
+ffffffff	include/iscsi_hdr.h	/^	u32 ffffffff;$/;"	m	struct:iscsi_reject_hdr
+fifo_hdr	include/iscsi_hdr.h	/^struct fifo_hdr {$/;"	s
+first	include/list.h	/^	struct hlist_node *first;$/;"	m	struct:hlist_head	typeref:struct:hlist_head::hlist_node
+flags	include/iscsi_hdr.h	/^	u8  flags;$/;"	m	struct:iscsi_data_in_hdr
+flags	include/iscsi_hdr.h	/^	u8  flags;$/;"	m	struct:iscsi_data_out_hdr
+flags	include/iscsi_hdr.h	/^	u8  flags;$/;"	m	struct:iscsi_hdr
+flags	include/iscsi_hdr.h	/^	u8  flags;$/;"	m	struct:iscsi_login_req_hdr
+flags	include/iscsi_hdr.h	/^	u8  flags;$/;"	m	struct:iscsi_login_rsp_hdr
+flags	include/iscsi_hdr.h	/^	u8  flags;$/;"	m	struct:iscsi_logout_req_hdr
+flags	include/iscsi_hdr.h	/^	u8  flags;$/;"	m	struct:iscsi_logout_rsp_hdr
+flags	include/iscsi_hdr.h	/^	u8  flags;$/;"	m	struct:iscsi_reject_hdr
+flags	include/iscsi_hdr.h	/^	u8  flags;$/;"	m	struct:iscsi_scsi_cmd_hdr
+flags	include/iscsi_hdr.h	/^	u8  flags;$/;"	m	struct:iscsi_scsi_rsp_hdr
+flags	include/iscsi_hdr.h	/^	u8  flags;$/;"	m	struct:iscsi_text_req_hdr
+flags	include/iscsi_hdr.h	/^	u8  flags;$/;"	m	struct:iscsi_text_rsp_hdr
+flags	include/socketlib.h	/^	int flags;$/;"	m	struct:skt_node
+function	include/iscsi_hdr.h	/^	u8  function;$/;"	m	struct:iscsi_task_mgt_hdr
+get_from_sktlist	libsrc/sktlist.c	/^char *get_from_sktlist(int thread_num)$/;"	f
+get_node_ip	libsrc/socketlib.c	/^char *get_node_ip(const char *name)$/;"	f
+hattr	include/socketlib.h	/^	struct list_head hattr;$/;"	m	struct:skt_list_head	typeref:struct:skt_list_head::list_head
+hdr_size	include/iscsi_hdr.h	/^        int hdr_size;$/;"	m	struct:fifo_hdr
+hlist_add_after	include/list.h	/^static inline void hlist_add_after(struct hlist_node *n,$/;"	f
+hlist_add_before	include/list.h	/^static inline void hlist_add_before(struct hlist_node *n,$/;"	f
+hlist_add_head	include/list.h	/^static inline void hlist_add_head(struct hlist_node *n, struct hlist_head *h)$/;"	f
+hlist_del	include/list.h	/^static inline void hlist_del(struct hlist_node *n)$/;"	f
+hlist_del_init	include/list.h	/^static inline void hlist_del_init(struct hlist_node *n)$/;"	f
+hlist_empty	include/list.h	/^static inline int hlist_empty(const struct hlist_head *h)$/;"	f
+hlist_entry	include/list.h	628;"	d
+hlist_for_each	include/list.h	630;"	d
+hlist_for_each_entry	include/list.h	645;"	d
+hlist_for_each_entry_continue	include/list.h	657;"	d
+hlist_for_each_entry_from	include/list.h	669;"	d
+hlist_for_each_entry_safe	include/list.h	682;"	d
+hlist_for_each_safe	include/list.h	634;"	d
+hlist_head	include/list.h	/^struct hlist_head {$/;"	s
+hlist_move_list	include/list.h	/^static inline void hlist_move_list(struct hlist_head *old,$/;"	f
+hlist_node	include/list.h	/^struct hlist_node {$/;"	s
+hlist_unhashed	include/list.h	/^static inline int hlist_unhashed(const struct hlist_node *h)$/;"	f
+hnode	include/socketlib.h	/^	struct list_head hnode;$/;"	m	struct:skt_list_head	typeref:struct:skt_list_head::list_head
+id	include/iscsi_hdr.h	/^	} id;$/;"	m	union:iscsi_sid	typeref:struct:iscsi_sid::__anon4
+id64	include/iscsi_hdr.h	/^	u64 id64;$/;"	m	union:iscsi_sid
+ip	include/socketlib.h	/^	char ip[16];$/;"	m	struct:skt_attr
+ip	include/socketlib.h	/^	char ip[16];$/;"	m	struct:skt_node
+iscsi_ahs_hdr	include/iscsi_hdr.h	/^struct iscsi_ahs_hdr {$/;"	s
+iscsi_attr	include/iscsid.h	/^struct iscsi_attr {$/;"	s
+iscsi_data_in_hdr	include/iscsi_hdr.h	/^struct iscsi_data_in_hdr {$/;"	s
+iscsi_data_out_hdr	include/iscsi_hdr.h	/^struct iscsi_data_out_hdr {$/;"	s
+iscsi_hdr	include/iscsi_hdr.h	/^struct iscsi_hdr {$/;"	s
+iscsi_key	include/param.h	/^struct iscsi_key {$/;"	s
+iscsi_key_ops	include/param.h	/^struct iscsi_key_ops {$/;"	s
+iscsi_login_req_hdr	include/iscsi_hdr.h	/^struct iscsi_login_req_hdr {$/;"	s
+iscsi_login_rsp_hdr	include/iscsi_hdr.h	/^struct iscsi_login_rsp_hdr {$/;"	s
+iscsi_logout_req_hdr	include/iscsi_hdr.h	/^struct iscsi_logout_req_hdr {$/;"	s
+iscsi_logout_rsp_hdr	include/iscsi_hdr.h	/^struct iscsi_logout_rsp_hdr {$/;"	s
+iscsi_param	include/param.h	/^struct iscsi_param {$/;"	s
+iscsi_reject_hdr	include/iscsi_hdr.h	/^struct iscsi_reject_hdr {$/;"	s
+iscsi_scsi_cmd_hdr	include/iscsi_hdr.h	/^struct iscsi_scsi_cmd_hdr {$/;"	s
+iscsi_scsi_rsp_hdr	include/iscsi_hdr.h	/^struct iscsi_scsi_rsp_hdr {$/;"	s
+iscsi_sense_data	include/iscsi_hdr.h	/^struct iscsi_sense_data {$/;"	s
+iscsi_sid	include/iscsi_hdr.h	/^union iscsi_sid {$/;"	u
+iscsi_task_mgt_hdr	include/iscsi_hdr.h	/^struct iscsi_task_mgt_hdr {$/;"	s
+iscsi_text_req_hdr	include/iscsi_hdr.h	/^struct iscsi_text_req_hdr {$/;"	s
+iscsi_text_rsp_hdr	include/iscsi_hdr.h	/^struct iscsi_text_rsp_hdr {$/;"	s
+isid	include/iscsi_hdr.h	/^		u8 isid[6];		\/* Initiator Session ID *\/$/;"	m	struct:iscsi_sid::__anon4
+itt	include/iscsi_hdr.h	/^	__be32 itt;$/;"	m	struct:iscsi_data_in_hdr
+itt	include/iscsi_hdr.h	/^	__be32 itt;$/;"	m	struct:iscsi_data_out_hdr
+itt	include/iscsi_hdr.h	/^	__be32 itt;$/;"	m	struct:iscsi_scsi_cmd_hdr
+itt	include/iscsi_hdr.h	/^	__be32 itt;$/;"	m	struct:iscsi_scsi_rsp_hdr
+itt	include/iscsi_hdr.h	/^	__be32 itt;$/;"	m	struct:iscsi_task_mgt_hdr
+itt	include/iscsi_hdr.h	/^	u32 itt;			\/* 16 *\/$/;"	m	struct:iscsi_hdr
+itt	include/iscsi_hdr.h	/^	u32 itt;			\/* Initiator Task Tag *\/$/;"	m	struct:iscsi_login_req_hdr
+itt	include/iscsi_hdr.h	/^	u32 itt;			\/* Initiator Task Tag *\/$/;"	m	struct:iscsi_login_rsp_hdr
+itt	include/iscsi_hdr.h	/^	u32 itt;$/;"	m	struct:iscsi_logout_req_hdr
+itt	include/iscsi_hdr.h	/^	u32 itt;$/;"	m	struct:iscsi_logout_rsp_hdr
+itt	include/iscsi_hdr.h	/^	u32 itt;$/;"	m	struct:iscsi_text_req_hdr
+itt	include/iscsi_hdr.h	/^	u32 itt;$/;"	m	struct:iscsi_text_rsp_hdr
+key_state	include/param.h	/^	int key_state;$/;"	m	struct:iscsi_param
+le16_to_cpu	include/types.h	29;"	d
+le16_to_cpu	include/types.h	38;"	d
+le32_to_cpu	include/types.h	31;"	d
+le32_to_cpu	include/types.h	40;"	d
+length	include/iscsi_hdr.h	/^	__be16 length;$/;"	m	struct:iscsi_sense_data
+list	include/sktlist.h	/^        struct list_head list;$/;"	m	struct:sktlist	typeref:struct:sktlist::list_head
+list	include/sktlist.h	/^        struct list_head list;$/;"	m	struct:sktnode	typeref:struct:sktnode::list_head
+list	include/socketlib.h	/^	struct list_head list;$/;"	m	struct:skt_node	typeref:struct:skt_node::list_head
+list_add	include/list.h	/^static inline void list_add(struct list_head *new, struct list_head *head)$/;"	f
+list_add_tail	include/list.h	/^static inline void list_add_tail(struct list_head *new, struct list_head *head)$/;"	f
+list_cut_position	include/list.h	/^static inline void list_cut_position(struct list_head *list,$/;"	f
+list_del	include/list.h	/^static inline void list_del(struct list_head *entry)$/;"	f
+list_del_init	include/list.h	/^static inline void list_del_init(struct list_head *entry)$/;"	f
+list_empty	include/list.h	/^static inline int list_empty(const struct list_head *head)$/;"	f
+list_empty_careful	include/list.h	/^static inline int list_empty_careful(const struct list_head *head)$/;"	f
+list_entry	include/list.h	327;"	d
+list_first_entry	include/list.h	338;"	d
+list_for_each	include/list.h	346;"	d
+list_for_each_entry	include/list.h	399;"	d
+list_for_each_entry_continue	include/list.h	435;"	d
+list_for_each_entry_continue_reverse	include/list.h	449;"	d
+list_for_each_entry_from	include/list.h	462;"	d
+list_for_each_entry_reverse	include/list.h	410;"	d
+list_for_each_entry_safe	include/list.h	473;"	d
+list_for_each_entry_safe_continue	include/list.h	489;"	d
+list_for_each_entry_safe_from	include/list.h	505;"	d
+list_for_each_entry_safe_reverse	include/list.h	520;"	d
+list_for_each_prev	include/list.h	368;"	d
+list_for_each_prev_safe	include/list.h	388;"	d
+list_for_each_safe	include/list.h	378;"	d
+list_for_search_attr	libsrc/socketlib.c	/^static inline void *list_for_search_attr(const char *name)$/;"	f	file:
+list_for_search_node	libsrc/socketlib.c	/^static inline void *list_for_search_node(const char *name)$/;"	f	file:
+list_head	include/list.h	/^struct list_head {$/;"	s
+list_is_last	include/list.h	/^static inline int list_is_last(const struct list_head *list,$/;"	f
+list_is_singular	include/list.h	/^static inline int list_is_singular(const struct list_head *head)$/;"	f
+list_move	include/list.h	/^static inline void list_move(struct list_head *list, struct list_head *head)$/;"	f
+list_move_tail	include/list.h	/^static inline void list_move_tail(struct list_head *list,$/;"	f
+list_prepare_entry	include/list.h	423;"	d
+list_replace	include/list.h	/^static inline void list_replace(struct list_head *old,$/;"	f
+list_replace_init	include/list.h	/^static inline void list_replace_init(struct list_head *old,$/;"	f
+list_splice	include/list.h	/^static inline void list_splice(const struct list_head *list,$/;"	f
+list_splice_init	include/list.h	/^static inline void list_splice_init(struct list_head *list,$/;"	f
+list_splice_tail	include/list.h	/^static inline void list_splice_tail(struct list_head *list,$/;"	f
+list_splice_tail_init	include/list.h	/^static inline void list_splice_tail_init(struct list_head *list,$/;"	f
+listenmax	include/socketlib.h	/^	int listenmax;$/;"	m	struct:skt_attr
+local_def	include/param.h	/^	unsigned int local_def;$/;"	m	struct:iscsi_key
+log_debug	include/iscsid.h	130;"	d
+log_error	include/iscsid.h	129;"	d
+log_error_cond	include/iscsid.h	142;"	d
+log_info	include/iscsid.h	127;"	d
+log_info_cond	include/iscsid.h	138;"	d
+log_pdu	include/iscsid.h	131;"	d
+log_warning	include/iscsid.h	128;"	d
+log_warning_cond	include/iscsid.h	140;"	d
+lun	include/iscsi_hdr.h	/^	__be64 lun;$/;"	m	struct:iscsi_data_out_hdr
+lun	include/iscsi_hdr.h	/^	__be64 lun;$/;"	m	struct:iscsi_scsi_cmd_hdr
+lun	include/iscsi_hdr.h	/^	__be64 lun;$/;"	m	struct:iscsi_task_mgt_hdr
+lun	include/iscsi_hdr.h	/^	u16 lun[4];			\/* 8 *\/$/;"	m	struct:iscsi_hdr
+main	app/client.c	/^int main(int argc, char **argv)$/;"	f
+main	app/server.c	/^int main(int argc, char **argv)$/;"	f
+max	include/param.h	/^	unsigned int max;$/;"	m	struct:iscsi_key
+max_cmd_sn	include/iscsi_hdr.h	/^	u32 max_cmd_sn;$/;"	m	struct:iscsi_data_in_hdr
+max_cmd_sn	include/iscsi_hdr.h	/^	u32 max_cmd_sn;$/;"	m	struct:iscsi_login_rsp_hdr
+max_cmd_sn	include/iscsi_hdr.h	/^	u32 max_cmd_sn;$/;"	m	struct:iscsi_logout_rsp_hdr
+max_cmd_sn	include/iscsi_hdr.h	/^	u32 max_cmd_sn;$/;"	m	struct:iscsi_reject_hdr
+max_cmd_sn	include/iscsi_hdr.h	/^	u32 max_cmd_sn;$/;"	m	struct:iscsi_scsi_rsp_hdr
+max_cmd_sn	include/iscsi_hdr.h	/^	u32 max_cmd_sn;$/;"	m	struct:iscsi_text_rsp_hdr
+max_sn	include/iscsi_hdr.h	/^	u32 max_sn;			\/* 32 *\/$/;"	m	struct:iscsi_hdr
+max_version	include/iscsi_hdr.h	/^	u8  max_version;		\/* Max. version supported *\/$/;"	m	struct:iscsi_login_req_hdr
+max_version	include/iscsi_hdr.h	/^	u8  max_version;		\/* Max. version supported *\/$/;"	m	struct:iscsi_login_rsp_hdr
+min	include/param.h	/^	unsigned int min;$/;"	m	struct:iscsi_key
+min_version	include/iscsi_hdr.h	/^	u8  min_version;		\/* Min. version supported *\/$/;"	m	struct:iscsi_login_req_hdr
+mutex	include/sktlist.h	/^        pthread_mutex_t mutex;$/;"	m	struct:sktlist
+mutex	include/socketlib.h	/^	pthread_mutex_t mutex;          \/\/lock attr$/;"	m	struct:skt_attr
+mutex	include/socketlib.h	/^	pthread_mutex_t mutex;          \/\/lock node$/;"	m	struct:skt_node
+mutex_attr	include/socketlib.h	/^	pthread_mutexattr_t *mutex_attr;$/;"	m	struct:skt_attr
+mutex_attr	include/socketlib.h	/^	pthread_mutexattr_t *mutex_attr;$/;"	m	struct:skt_node
+name	include/iscsi_hdr.h	/^        char name[0];$/;"	m	struct:fifo_hdr
+name	include/param.h	/^	const char *name;$/;"	m	struct:iscsi_key
+name	include/sktlist.h	/^        char *name;$/;"	m	struct:sktnode
+name	include/socketlib.h	/^	char *name;                     \/\/attr name$/;"	m	struct:skt_attr
+name	include/socketlib.h	/^	char *name;$/;"	m	struct:skt_list_head
+name	include/socketlib.h	/^	char *name;$/;"	m	struct:skt_node
+next	include/list.h	/^	struct hlist_node *next, **pprev;$/;"	m	struct:hlist_node	typeref:struct:hlist_node::hlist_node
+next	include/list.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::list_head
+next_key	libsrc/cmd.c	/^static char *next_key(char **data, int *datasize, int *value)$/;"	f	file:
+nmutex	include/socketlib.h	/^	pthread_mutex_t nmutex;$/;"	m	struct:skt_list_head
+offsetof	include/list.h	13;"	d
+opcode	include/iscsi_hdr.h	/^	u8  opcode;			\/* 0 *\/$/;"	m	struct:iscsi_hdr
+opcode	include/iscsi_hdr.h	/^	u8  opcode;$/;"	m	struct:iscsi_data_in_hdr
+opcode	include/iscsi_hdr.h	/^	u8  opcode;$/;"	m	struct:iscsi_data_out_hdr
+opcode	include/iscsi_hdr.h	/^	u8  opcode;$/;"	m	struct:iscsi_login_req_hdr
+opcode	include/iscsi_hdr.h	/^	u8  opcode;$/;"	m	struct:iscsi_login_rsp_hdr
+opcode	include/iscsi_hdr.h	/^	u8  opcode;$/;"	m	struct:iscsi_logout_req_hdr
+opcode	include/iscsi_hdr.h	/^	u8  opcode;$/;"	m	struct:iscsi_logout_rsp_hdr
+opcode	include/iscsi_hdr.h	/^	u8  opcode;$/;"	m	struct:iscsi_reject_hdr
+opcode	include/iscsi_hdr.h	/^	u8  opcode;$/;"	m	struct:iscsi_scsi_cmd_hdr
+opcode	include/iscsi_hdr.h	/^	u8  opcode;$/;"	m	struct:iscsi_scsi_rsp_hdr
+opcode	include/iscsi_hdr.h	/^	u8  opcode;$/;"	m	struct:iscsi_task_mgt_hdr
+opcode	include/iscsi_hdr.h	/^	u8  opcode;$/;"	m	struct:iscsi_text_req_hdr
+opcode	include/iscsi_hdr.h	/^	u8  opcode;$/;"	m	struct:iscsi_text_rsp_hdr
+ops	include/param.h	/^	struct iscsi_key_ops *ops;$/;"	m	struct:iscsi_key	typeref:struct:iscsi_key::iscsi_key_ops
+parent	include/socketlib.h	/^	void *parent;                   \/\/point to server$/;"	m	struct:skt_node
+pattr	include/socketlib.h	/^        pthread_attr_t pattr;$/;"	m	struct:pthread_skt
+plist	include/socketlib.h	/^	struct list_head plist;         \/\/list head start of attr,client list$/;"	m	struct:skt_node	typeref:struct:skt_node::list_head
+port	include/socketlib.h	/^	int port;$/;"	m	struct:skt_attr
+port	include/socketlib.h	/^	int port;$/;"	m	struct:skt_node
+pprev	include/list.h	/^	struct hlist_node *next, **pprev;$/;"	m	struct:hlist_node	typeref:struct:hlist_node::
+prev	include/list.h	/^	struct list_head *next, *prev;$/;"	m	struct:list_head	typeref:struct:list_head::
+print_attr	libsrc/socketlib.c	/^void print_attr(void)$/;"	f
+print_node	libsrc/socketlib.c	/^void print_node(void)$/;"	f
+protocol	include/socketlib.h	/^	int protocol;$/;"	m	struct:skt_attr
+protocol	include/socketlib.h	/^	int protocol;$/;"	m	struct:skt_node
+pthread_skt	include/socketlib.h	/^struct pthread_skt {$/;"	s
+rcvbufsize	include/socketlib.h	/^	int rcvbufsize;$/;"	m	struct:sockopt
+rcvlowat	include/socketlib.h	/^	int rcvlowat;$/;"	m	struct:sockopt
+reason	include/iscsi_hdr.h	/^	u8  reason;$/;"	m	struct:iscsi_reject_hdr
+recv_thread_create	app/server.c	/^int recv_thread_create(void)$/;"	f
+recv_thread_create_cli	app/client.c	/^int recv_thread_create_cli(void)$/;"	f
+ref_cmd_sn	include/iscsi_hdr.h	/^	u32 ref_cmd_sn;$/;"	m	struct:iscsi_task_mgt_hdr
+residual_count	include/iscsi_hdr.h	/^	__be32 residual_count;$/;"	m	struct:iscsi_data_in_hdr
+residual_count	include/iscsi_hdr.h	/^	__be32 residual_count;$/;"	m	struct:iscsi_scsi_rsp_hdr
+response	include/iscsi_hdr.h	/^	u8  response;$/;"	m	struct:iscsi_logout_rsp_hdr
+response	include/iscsi_hdr.h	/^	u8  response;$/;"	m	struct:iscsi_scsi_rsp_hdr
+reuse	include/socketlib.h	/^	int reuse;$/;"	m	struct:sockopt
+rever	include/sktlist.h	/^        void *rever;$/;"	m	struct:sktnode
+rfc_def	include/param.h	/^	unsigned int rfc_def;$/;"	m	struct:iscsi_key
+rsvd1	include/iscsi_hdr.h	/^	__be16 rsvd1;$/;"	m	struct:iscsi_scsi_cmd_hdr
+rsvd1	include/iscsi_hdr.h	/^	__be16 rsvd1;$/;"	m	struct:iscsi_task_mgt_hdr
+rsvd1	include/iscsi_hdr.h	/^	u16 rsvd1;$/;"	m	struct:iscsi_data_out_hdr
+rsvd1	include/iscsi_hdr.h	/^	u16 rsvd1;$/;"	m	struct:iscsi_login_req_hdr
+rsvd1	include/iscsi_hdr.h	/^	u16 rsvd1;$/;"	m	struct:iscsi_logout_req_hdr
+rsvd1	include/iscsi_hdr.h	/^	u16 rsvd1;$/;"	m	struct:iscsi_text_req_hdr
+rsvd1	include/iscsi_hdr.h	/^	u16 rsvd1;$/;"	m	struct:iscsi_text_rsp_hdr
+rsvd1	include/iscsi_hdr.h	/^	u32 rsvd1;$/;"	m	struct:iscsi_login_rsp_hdr
+rsvd1	include/iscsi_hdr.h	/^	u32 rsvd1[2];$/;"	m	struct:iscsi_scsi_rsp_hdr
+rsvd1	include/iscsi_hdr.h	/^	u8  rsvd1;$/;"	m	struct:iscsi_data_in_hdr
+rsvd1	include/iscsi_hdr.h	/^	u8  rsvd1;$/;"	m	struct:iscsi_logout_rsp_hdr
+rsvd1	include/iscsi_hdr.h	/^	u8  rsvd1;$/;"	m	struct:iscsi_reject_hdr
+rsvd2	include/iscsi_hdr.h	/^	u32 rsvd2;$/;"	m	struct:iscsi_data_out_hdr
+rsvd2	include/iscsi_hdr.h	/^	u32 rsvd2[2];$/;"	m	struct:iscsi_data_in_hdr
+rsvd2	include/iscsi_hdr.h	/^	u32 rsvd2[2];$/;"	m	struct:iscsi_logout_req_hdr
+rsvd2	include/iscsi_hdr.h	/^	u32 rsvd2[2];$/;"	m	struct:iscsi_logout_rsp_hdr
+rsvd2	include/iscsi_hdr.h	/^	u32 rsvd2[2];$/;"	m	struct:iscsi_reject_hdr
+rsvd2	include/iscsi_hdr.h	/^	u32 rsvd2[2];$/;"	m	struct:iscsi_task_mgt_hdr
+rsvd2	include/iscsi_hdr.h	/^	u32 rsvd2[2];$/;"	m	struct:iscsi_text_req_hdr
+rsvd2	include/iscsi_hdr.h	/^	u32 rsvd2[2];$/;"	m	struct:iscsi_text_rsp_hdr
+rsvd2	include/iscsi_hdr.h	/^	u32 rsvd2[4];$/;"	m	struct:iscsi_login_req_hdr
+rsvd2	include/iscsi_hdr.h	/^	u8  rsvd2[10];$/;"	m	struct:iscsi_login_rsp_hdr
+rsvd3	include/iscsi_hdr.h	/^	u16 rsvd3;$/;"	m	struct:iscsi_logout_req_hdr
+rsvd3	include/iscsi_hdr.h	/^	u32 rsvd3;$/;"	m	struct:iscsi_data_out_hdr
+rsvd3	include/iscsi_hdr.h	/^	u32 rsvd3;$/;"	m	struct:iscsi_logout_rsp_hdr
+rsvd3	include/iscsi_hdr.h	/^	u32 rsvd3;$/;"	m	struct:iscsi_reject_hdr
+rsvd3	include/iscsi_hdr.h	/^	u32 rsvd3[3];$/;"	m	struct:iscsi_text_rsp_hdr
+rsvd3	include/iscsi_hdr.h	/^	u32 rsvd3[4];$/;"	m	struct:iscsi_text_req_hdr
+rsvd4	include/iscsi_hdr.h	/^	u32 rsvd4;$/;"	m	struct:iscsi_data_out_hdr
+rsvd4	include/iscsi_hdr.h	/^	u32 rsvd4;$/;"	m	struct:iscsi_logout_rsp_hdr
+rsvd4	include/iscsi_hdr.h	/^	u32 rsvd4[2];$/;"	m	struct:iscsi_reject_hdr
+rsvd4	include/iscsi_hdr.h	/^	u32 rsvd4[4];$/;"	m	struct:iscsi_logout_req_hdr
+rsvd5	include/iscsi_hdr.h	/^	u32 rsvd5;$/;"	m	struct:iscsi_logout_rsp_hdr
+rtout	include/socketlib.h	/^	struct timeval rtout;$/;"	m	struct:sockopt	typeref:struct:sockopt::timeval
+rtt	include/iscsi_hdr.h	/^	__be32 rtt;$/;"	m	struct:iscsi_task_mgt_hdr
+s32	include/types.h	/^typedef int32_t s32;$/;"	t
+sBUG	include/iscsid.h	35;"	d
+sBUG_ON	include/iscsid.h	36;"	d
+saddr	include/socketlib.h	/^	struct sockaddr_in saddr;       \/\/dest addr$/;"	m	struct:skt_node	typeref:struct:skt_node::sockaddr_in
+saddr	include/socketlib.h	/^	struct sockaddr_in saddr;       \/\/server listen addr$/;"	m	struct:skt_attr	typeref:struct:skt_attr::sockaddr_in
+saddrlen	include/socketlib.h	/^	socklen_t saddrlen;             \/\/dest addr leng$/;"	m	struct:skt_node
+saddrlen	include/socketlib.h	/^	socklen_t saddrlen;$/;"	m	struct:skt_attr
+scb	include/iscsi_hdr.h	/^	u8  scb[16];$/;"	m	struct:iscsi_scsi_cmd_hdr
+send_thread_create	app/server.c	/^int send_thread_create(void)$/;"	f
+send_thread_create_cli	app/client.c	/^int send_thread_create_cli(void)$/;"	f
+send_to_sktlist	libsrc/sktlist.c	/^int send_to_sktlist(void *c)$/;"	f
+set_val	include/param.h	/^	int (*set_val)(struct iscsi_param *, int, unsigned int *);$/;"	m	struct:iscsi_key_ops
+show_in_sysfs	include/param.h	/^	int show_in_sysfs;$/;"	m	struct:iscsi_key
+show_time	include/cmd.h	/^void show_time(void)$/;"	f
+sid	include/iscsi_hdr.h	/^	union iscsi_sid sid;$/;"	m	struct:iscsi_login_req_hdr	typeref:union:iscsi_login_req_hdr::iscsi_sid
+sid	include/iscsi_hdr.h	/^	union iscsi_sid sid;$/;"	m	struct:iscsi_login_rsp_hdr	typeref:union:iscsi_login_rsp_hdr::iscsi_sid
+skt_accept	libsrc/socketlib.c	/^int skt_accept(char *attrname, char *nodename)$/;"	f
+skt_alloc_attr	libsrc/socketlib.c	/^void *skt_alloc_attr(const int type, const int port)$/;"	f
+skt_alloc_node	libsrc/socketlib.c	/^struct skt_node *skt_alloc_node(const int type,$/;"	f
+skt_attr	include/socketlib.h	/^struct skt_attr{                        \/\/descript socket server$/;"	s
+skt_attr_register	libsrc/socketlib.c	/^int skt_attr_register(const void *attr, const char *name)$/;"	f
+skt_close_attr	libsrc/socketlib.c	/^void *skt_close_attr(char *name)$/;"	f
+skt_close_free_node	libsrc/socketlib.c	/^void skt_close_free_node(char *name)$/;"	f
+skt_close_node	libsrc/socketlib.c	/^void *skt_close_node(char *name)$/;"	f
+skt_free_attr	libsrc/socketlib.c	/^int skt_free_attr(void *attrp)$/;"	f
+skt_free_node	libsrc/socketlib.c	/^int skt_free_node(void *nodp)$/;"	f
+skt_head	libsrc/socketlib.c	/^static struct skt_list_head skt_head={NULL};$/;"	v	typeref:struct:skt_list_head	file:
+skt_list_head	include/socketlib.h	/^struct skt_list_head{$/;"	s
+skt_node	include/socketlib.h	/^struct skt_node{$/;"	s
+skt_node_register	libsrc/socketlib.c	/^int skt_node_register(void *node, char *name)$/;"	f
+skt_recv	libsrc/socketlib.c	/^int skt_recv(char *name, void *rbuf, size_t rlen)$/;"	f
+skt_recv_fn_cli	app/client.c	/^void *skt_recv_fn_cli(void *args)$/;"	f
+skt_recv_fn_ser	app/server.c	/^void *skt_recv_fn_ser(void *args)$/;"	f
+skt_send	libsrc/socketlib.c	/^int skt_send(void *name, void *sbuf, size_t slen)$/;"	f
+skt_send_fn_cli	app/client.c	/^void *skt_send_fn_cli(void *args)$/;"	f
+skt_send_fn_ser	app/server.c	/^void *skt_send_fn_ser(void *args)$/;"	f
+skt_shutdown	libsrc/socketlib.c	/^void *skt_shutdown(char *name, int how)$/;"	f
+skt_sys_free	libsrc/socketlib.c	/^void skt_sys_free(const char *sysname)$/;"	f
+skt_sys_init	libsrc/socketlib.c	/^int skt_sys_init(const char *sys_name)$/;"	f
+sktlist	include/sktlist.h	/^struct sktlist {$/;"	s
+sktlist_init	libsrc/sktlist.c	/^void sktlist_init(void)$/;"	f
+sktnode	include/sktlist.h	/^struct sktnode {$/;"	s
+slist	libsrc/sktlist.c	/^struct sktlist slist;$/;"	v	typeref:struct:sktlist
+sn	include/iscsi_hdr.h	/^	u32 sn;				\/* 24 *\/$/;"	m	struct:iscsi_hdr
+snack	include/iscsi_hdr.h	/^	__be32 snack;$/;"	m	struct:iscsi_scsi_rsp_hdr
+sndbufsize	include/socketlib.h	/^	int sndbufsize;$/;"	m	struct:sockopt
+sndlowat	include/socketlib.h	/^	int sndlowat;$/;"	m	struct:sockopt
+sockopt	include/socketlib.h	/^struct sockopt{$/;"	s
+sopt	include/socketlib.h	/^	struct sockopt sopt;	$/;"	m	struct:skt_attr	typeref:struct:skt_attr::sockopt
+sopt	include/socketlib.h	/^	struct sockopt sopt;	$/;"	m	struct:skt_node	typeref:struct:skt_node::sockopt
+spec1	include/iscsi_hdr.h	/^	u8  spec1[2];$/;"	m	struct:iscsi_hdr
+spec3	include/iscsi_hdr.h	/^	u32 spec3[3];			\/* 36 *\/$/;"	m	struct:iscsi_hdr
+stat_sn	include/iscsi_hdr.h	/^	u32 stat_sn;$/;"	m	struct:iscsi_data_in_hdr
+stat_sn	include/iscsi_hdr.h	/^	u32 stat_sn;$/;"	m	struct:iscsi_login_rsp_hdr
+stat_sn	include/iscsi_hdr.h	/^	u32 stat_sn;$/;"	m	struct:iscsi_logout_rsp_hdr
+stat_sn	include/iscsi_hdr.h	/^	u32 stat_sn;$/;"	m	struct:iscsi_reject_hdr
+stat_sn	include/iscsi_hdr.h	/^	u32 stat_sn;$/;"	m	struct:iscsi_scsi_rsp_hdr
+stat_sn	include/iscsi_hdr.h	/^	u32 stat_sn;$/;"	m	struct:iscsi_text_rsp_hdr
+status_class	include/iscsi_hdr.h	/^	u8  status_class;		\/* see Login RSP Status classes below *\/$/;"	m	struct:iscsi_login_rsp_hdr
+status_detail	include/iscsi_hdr.h	/^	u8  status_detail;		\/* see Login RSP Status details below *\/$/;"	m	struct:iscsi_login_rsp_hdr
+stid	include/socketlib.h	/^        pthread_t stid;$/;"	m	struct:pthread_skt
+stout	include/socketlib.h	/^	struct timeval stout;$/;"	m	struct:sockopt	typeref:struct:sockopt::timeval
+str_to_val	include/param.h	/^	int (*str_to_val)(const char *, unsigned int *);$/;"	m	struct:iscsi_key_ops
+sysfs_mode	include/iscsid.h	/^	u32 sysfs_mode;$/;"	m	struct:iscsi_attr
+sysfs_name	include/iscsid.h	/^	char sysfs_name[64];$/;"	m	struct:iscsi_attr
+t	include/cmd.h	/^time_t t;$/;"	v
+text_scan_text	libsrc/cmd.c	/^static void text_scan_text(char *buf, int len, int *newlen)$/;"	f	file:
+thread_num	include/socketlib.h	/^        int thread_num[SKT_CLIENT_MAX];$/;"	m	struct:pthread_skt
+time2retain	include/iscsi_hdr.h	/^	u16 time2retain;$/;"	m	struct:iscsi_logout_rsp_hdr
+time2wait	include/iscsi_hdr.h	/^	u16 time2wait;$/;"	m	struct:iscsi_logout_rsp_hdr
+time_buf	include/cmd.h	/^char time_buf[1024];$/;"	v
+true	include/iscsid.h	/^typedef enum {false = 0, true} bool;$/;"	e	enum:__anon1
+tsih	include/iscsi_hdr.h	/^		u16 tsih;		\/* Target Session ID *\/$/;"	m	struct:iscsi_sid::__anon4
+ttt	include/iscsi_hdr.h	/^	__be32 ttt;$/;"	m	struct:iscsi_data_in_hdr
+ttt	include/iscsi_hdr.h	/^	__be32 ttt;$/;"	m	struct:iscsi_data_out_hdr
+ttt	include/iscsi_hdr.h	/^	u32 ttt;			\/* 20 *\/$/;"	m	struct:iscsi_hdr
+ttt	include/iscsi_hdr.h	/^	u32 ttt;$/;"	m	struct:iscsi_text_req_hdr
+ttt	include/iscsi_hdr.h	/^	u32 ttt;$/;"	m	struct:iscsi_text_rsp_hdr
+type	include/socketlib.h	/^	int type;                       \/\/SOCK_STREAM OR SOCK DGRAM$/;"	m	struct:skt_node
+type	include/socketlib.h	/^	int type;$/;"	m	struct:skt_attr
+u16	include/types.h	/^typedef u_int16_t u16;$/;"	t
+u32	include/types.h	/^typedef u_int32_t u32;$/;"	t
+u64	include/types.h	/^typedef u_int64_t u64;$/;"	t
+u8	include/types.h	/^typedef u_int8_t u8;$/;"	t
+val	include/param.h	/^	unsigned int val;$/;"	m	struct:iscsi_param
+val_to_str	include/param.h	/^	int (*val_to_str)(unsigned int, char *, int);$/;"	m	struct:iscsi_key_ops
